@@ -1,74 +1,154 @@
 \documentclass{article}
 
-
 \usepackage{PRIMEarxiv}
-
-\usepackage[utf8]{inputenc} % allow utf-8 input
-\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
-\usepackage{hyperref}       % hyperlinks
-\usepackage{url}            % simple URL typesetting
-\usepackage{booktabs}       % professional-quality tables
-\usepackage{amsfonts}       % blackboard math symbols
-\usepackage{nicefrac}       % compact symbols for 1/2, etc.
-\usepackage{microtype}      % microtypography
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{microtype}
 \usepackage{lipsum}
-\usepackage{fancyhdr}       % header
-\usepackage{graphicx}       % graphics
-\graphicspath{{media/}}     % organize your images and other figures under media/ folder
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\graphicspath{{media/}}
 
-%Header
 \pagestyle{fancy}
-\thispagestyle{empty}
-\rhead{ \textit{ }} 
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\rhead{\textit{ }}
+\cfoot{\thepage}
 
-% Update your Headers here
-% \fancyhead[LO]{Running Title for Header}
-% \fancyhead[RE]{Firstauthor and Secondauthor} % Firstauthor et al. if more than 2 - must use \documentclass[twoside]{article}
-
-
-
-  
-%% Title
-\title{Investigating the Impact of Generative AI Tutoring Styles on Student Knowledge Acquisition and Confidence Calibration
-%%%% Cite as
-%%%% Update your official citation here when published 
-\thanks{\textit{\underline{Citation}}: 
-\textbf{Kevin Bryan. Investigating the Impact of Generative AI Tutoring Styles on Student Knowledge Acquisition and Confidence Calibration
-}} 
-}
-
-\author{
-  Kevin Bryan \\
-  The University of Melbourne \\
-  \texttt{kevinb@student.unimelb.edu.au} \\
-  \and
-  Jorge Goncalves \\
-  The University of Melbourne \\
-  \texttt{jorge.goncalves@unimelb.edu.au} \\
-}
+%% Title and author (used on custom title page)
+\title{Investigating the Impact of Generative AI Tutoring Styles on Student Knowledge Acquisition and Confidence Calibration}
+\author{Kevin Bryan}
 
 \begin{document}
-\maketitle
+
+% ========== Custom title page (logo, title, author, word count, department) ==========
+\thispagestyle{empty}
+\begin{center}
+  \vspace*{1cm}
+  \includegraphics[width=0.45\textwidth]{uom.png}\\[1.5cm]
+  \begin{minipage}{0.9\textwidth}
+    \centering
+    \LARGE\bfseries
+    Investigating the Impact of Generative AI Tutoring Styles on Student Knowledge Acquisition and Confidence Calibration
+  \end{minipage}\\[1.2cm]
+  \large
+  Kevin Bryan\\
+  \texttt{kevinb@student.unimelb.edu.au}\\[0.8cm]
+  \textbf{Word count:} \texttt{[to be filled]}\\[0.6cm]
+  Department of Computing and Information Systems\\
+  The University of Melbourne\\[0.4cm]
+  \today
+\end{center}
+\vfill
+\newpage
+
+% ========== Table of contents ==========
+\tableofcontents
+\newpage
 
 
-\begin{abstract}
-TODO\end{abstract}
 
-
-% keywords can be removed
-\keywords{Generative AI \and Human-AI interaction \and Human-computer interaction (HCI) \and Learning strategies}
-
+% ========== Main content ==========
 \section{Introduction}
+% Target: 1--2 pages. Draw on Themes 1--4 from thematic\_analysis\_grouped.md.
+
+
+% Context: pedagogical shift, productivity paradox, illusion of truth, need for desirable friction.
+The rise of Generative AI (GenAI) and its capabilities has recently become a major topic of discussion in the education industry \cite{sallai2024approach}.
+Ever since the release of ChatGPT by OpenAI in November 2022, the education landscape has evolved tremendously \cite{sallai2024approach}.
+Whereas institutions initially banned the use of GenAI, the trend has shifted to embracing and integrating GenAI into pedagogy \cite{prather2024beyond}.
+This transition is supported by GenAI's ability to deliver personalized learning and customized feedback based on individual student needs \cite{wenjuan2024who}.
+By utilizing GenAI, students are now able to focus on higher-order skills such as critical thinking and creativity, while AI scaffolds and automates repetitive tasks \cite{xu2026integrating,qian2025pedagogical}.
+
+% Cognitive offloading, confidence miscalibration; need to test which tutoring style helps.
+However, if used unconsciously, GenAI can present a significant set of challenges.
+As stated before, GenAI is able to take over repetitive tasks \cite{xia2025systematic}, 
+but this could also lead to "cognitive offloading," where students outsource critical cognitive tasks to the AI \cite{xia2025systematic}.
+It becomes even more concerning as AI could also create a "productivity paradox," 
+where students experience increased productivity but lack depth in their critical analysis \cite{WANG2026}.
+For example,
+due to convenicence and speed that AI summaries provide, 
+students tend to prioritize using AI summaries over verifying the underlying sources \cite{Loughlin2026}.
+Despite the faster drafting process, the final result ended up being lower quality, with generic essays and a lack of critical analysis \cite{sallai2024approach,WANG2026}.
+This raises the importance of AI literacy, 
+as studies shows that students with higher AI literacy tend to take a collaborative approach 
+by planning and evaluatiing AI outputs, which consequently leads to better outcomes compared 
+to students with lower AI literacy which tends to over-rely on the AI \cite{KimetAl2026}. 
+Additionally, being over relaint on AI can reduce face-toface interaction, 
+leading to a decline in interpersonal skills and emotional intelligence 
+which consequently leads to social anxiety and isolation \cite{KlimovaPikhart2025}.
+
+% Illusion of truth and confidence miscalibration
+As mentioned above, over-reliance on AI is a significant concern that must be addressed.
+AI tend to generate text with a convincing tone, giving an illusion that the output is always true, 
+causing users to overlook hallucinations \cite{sallai2024approach, Loughlin2026}.
+Addressing this, students are required to possess foundational knowledge before adopting the tool
+to ensure they are able to critically validate the information provided as the human in the loop
+is responsible for the final output \cite{sallai2024approach,Lo2023}. 
+Thus, students must be taught to verify AI outputs, while educators should create critical 
+thinking assessments that can't be replicated by AI, such as video presentations or pitches \cite{Mollick2023,sallai2024approach}.
+
+
+% The need of guardrails to combat the illusion of truth
+To combat the illusion of truth, AI tools must be designed with guardrails
+that encourage cognitive engagement rather than handing out direct answers \cite{Wang2026SRL}.
+In the context of learning, the design of the AI interaction itself is more important than the it's capabilities \cite{Bastani2025}.
+Evidence shows that the use of scaffolding techniques, such guiding hints and follow-up questions 
+are able to significantly improve student's learning outcomes.
+AI chatbots with these guardrails are referred to as Socratic chatbots, designed to prevent giving out 
+direct answers to encourage self-reflection and deep understanding of the topic \cite{Jin2025,Hilliger2025,Jabbour2025}.
+When compared to default GenAI models, Socratic chatbots are able to produce 79\% more learning 
+improvments than default GenAI models (127\% vs. 48\%) in practice assesments \cite{Bastani2025}. 
+Additionally, unike the default model where students experience 
+learning loss when the AI is removed, 
+students did not experience any learning loss when the Socratic chatbot is removed \cite{Bastani2025}.
+
+% Compare direct, Socratic, reverse tutoring; hypothesis: protégé effect best for mastery and calibration.
+% current study only explores one tutoring style -> Socratic, lack of comparison to other tutoring style
+% however there are other tutoring styles that are provent to be effective , which is Reverse Tutoring (Protégé Effect)
+% this study aims to compare the 3 tutoring style and determine which one is the most effective for student's learning outcomes and confidence calibration
+
 
 \section{Literature Review}
+% Target: 5--6 pages. Draw on Themes 5--10. Structure like the example proposal (subsections that build the argument).
+\subsection{Generative AI in Education}
+% Frameworks, pedagogical shift, AI literacy (Themes 1, 5, 6).
+\subsection{Learning strategies: direct, Socratic, and learning-by-teaching}
+% Passive baseline / crutch (Theme 7), Socratic tutor (Theme 8), reverse tutoring / protégé effect (Theme 9).
+\subsection{Confidence calibration and psychological impacts}
+% Illusion of competence, self-efficacy, trust (Themes 3, 10).
+\subsection{Research gap}
+% Few studies compare all three styles; little GenAI work on reverse tutoring; need for calibration outcomes.
 
 \section{Research Question}
+% Main RQ and hypothesis (from thematic\_analysis\_grouped.md).
 
-\section{Methodology}
+\textbf{Research question:} How do direct-answer, Socratic, and reverse-tutoring (prot\'eg\'e effect) generative AI tutoring styles compare in terms of (a) student knowledge acquisition and (b) confidence calibration?
+
+\textbf{Hypothesis:} Reverse tutoring (student teaches the AI as a naive tutee) will lead to better knowledge mastery and better alignment between confidence and actual competence than both the Socratic chatbot and the direct-answer chatbot, because teaching forces learners to organise knowledge and exposes gaps (prot\'eg\'e effect), reducing the illusion of competence while supporting deeper learning.
+
+Optional sub-questions: Which style best supports long-term retention? Do self-efficacy and perceived difficulty differ across conditions?
+
+\section{Research Plan}
+\subsection{Methodology}
+% Overview: between-subjects (or within?) design; three conditions (direct, Socratic, reverse tutoring). Materials: topic, chatbot implementations.
+\subsection{Data and experiment}
+% Task, procedure, phases (learning with AI, then transfer test without AI). Measures: knowledge (e.g. test scores), confidence (e.g. self-reported or item-level), calibration (e.g. confidence minus accuracy).
+\subsection{Participants and ethics}
+% Recruitment, inclusion criteria, sample size rationale. Ethics approval.
+\subsection{Timeline}
+% Milestones (e.g. literature finalised, materials piloted, data collection, analysis, write-up).
 
 \section{Conclusion}
+% Summary of problem, approach, and expected outcomes. Contribution: evidence on which AI tutoring style best supports mastery and confidence calibration; implications for design of educational AI.
 
-%Bibliography
-\bibliographystyle{ieeetr}  
-\bibliography{references}  
+% ========== Bibliography ==========
+\bibliographystyle{ieeetr}
+\bibliography{references}
+
 \end{document}
