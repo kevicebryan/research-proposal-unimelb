@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.10.11)  17 MAR 2026 17:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.10.11)  22 MAR 2026 01:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -267,28 +267,39 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen168
 \Gin@req@width=\dimen169
-)
-No file templateArxiv.aux.
+) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box54
+\beforetitleunit=\skip72
+\aftertitleunit=\skip73
+\ttl@plus=\dimen170
+\ttl@minus=\dimen171
+\ttl@toksa=\toks25
+\titlewidth=\dimen172
+\titlewidthlast=\dimen173
+\titlewidthfirst=\dimen174
+) (./templateArxiv.aux)
 \openout1 = `templateArxiv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -355,63 +366,64 @@ LaTeX Font Info:    ... okay on input line 27.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 30.
+(./templateArxiv.out) (./templateArxiv.out)
 \@outlinefile=\write3
 \openout3 = `templateArxiv.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 27.
-Package microtype Info: Applying patch `item' on input line 27.
-Package microtype Info: Applying patch `toc' on input line 27.
-Package microtype Info: Applying patch `eqnum' on input line 27.
-Package microtype Info: Applying patch `footnote' on input line 27.
-Package microtype Info: Applying patch `verbatim' on input line 27.
-LaTeX Info: Redefining \microtypesetup on input line 27.
+LaTeX Info: Redefining \microtypecontext on input line 30.
+Package microtype Info: Applying patch `item' on input line 30.
+Package microtype Info: Applying patch `toc' on input line 30.
+Package microtype Info: Applying patch `eqnum' on input line 30.
+Package microtype Info: Applying patch `footnote' on input line 30.
+Package microtype Info: Applying patch `verbatim' on input line 30.
+LaTeX Info: Redefining \microtypesetup on input line 30.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 27.
+LaTeX Info: Redefining \showhyphens on input line 30.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+ (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 ) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count295
-\scratchdimen=\dimen170
-\scratchbox=\box54
+\scratchdimen=\dimen175
+\scratchbox=\box55
 \nofMPsegments=\count296
 \nofMParguments=\count297
-\everyMPshowfont=\toks25
+\everyMPshowfont=\toks26
 \MPscratchCnt=\count298
-\MPscratchDim=\dimen171
+\MPscratchDim=\dimen176
 \MPnumerator=\count299
 \makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks26
+\everyMPtoPDFconversion=\toks27
 ) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-<media/uom.png, id=4, 724.7075pt x 724.7075pt>
+<media/uom.png, id=56, 724.7075pt x 724.7075pt>
 File: media/uom.png Graphic file (type png)
 <use media/uom.png>
-Package pdftex.def Info: media/uom.png  used on input line 33.
+Package pdftex.def Info: media/uom.png  used on input line 36.
 (pdftex.def)             Requested size: 211.3883pt x 211.38724pt.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -426,174 +438,44 @@ Package microtype Info: Loading generic protrusion settings for font family
 [1
 
 
-{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./media/uom.png>]
-No file templateArxiv.toc.
+{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./media/uom.png>] (./templateArxiv.toc)
 \tf@toc=\write4
 \openout4 = `templateArxiv.toc'.
 
 
 
 [2]
-
-LaTeX Warning: Citation `sallai2024approach' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `sallai2024approach' on page 3 undefined on input line 63.
-
-
-LaTeX Warning: Citation `prather2024beyond' on page 3 undefined on input line 64.
-
-
-LaTeX Warning: Citation `wenjuan2024who' on page 3 undefined on input line 65.
-
-
-LaTeX Warning: Citation `xu2026integrating' on page 3 undefined on input line 66.
-
-
-LaTeX Warning: Citation `qian2025pedagogical' on page 3 undefined on input line 66.
-
-
-LaTeX Warning: Citation `xia2025systematic' on page 3 undefined on input line 70.
-
-
-LaTeX Warning: Citation `xia2025systematic' on page 3 undefined on input line 71.
-
-
-LaTeX Warning: Citation `WANG2026' on page 3 undefined on input line 73.
-
-
-LaTeX Warning: Citation `Loughlin2026' on page 3 undefined on input line 76.
-
-
-LaTeX Warning: Citation `sallai2024approach' on page 3 undefined on input line 77.
-
-
-LaTeX Warning: Citation `WANG2026' on page 3 undefined on input line 77.
-
-
-LaTeX Warning: Citation `KimetAl2026' on page 3 undefined on input line 81.
-
-
-LaTeX Warning: Citation `KlimovaPikhart2025' on page 3 undefined on input line 84.
-
-
-LaTeX Warning: Citation `sallai2024approach' on page 3 undefined on input line 89.
-
-
-LaTeX Warning: Citation `Loughlin2026' on page 3 undefined on input line 89.
-
-
-LaTeX Warning: Citation `sallai2024approach' on page 3 undefined on input line 92.
-
-
-LaTeX Warning: Citation `Lo2023' on page 3 undefined on input line 92.
-
-
-LaTeX Warning: Citation `Mollick2023' on page 3 undefined on input line 94.
-
-
-LaTeX Warning: Citation `sallai2024approach' on page 3 undefined on input line 94.
-
-
-LaTeX Warning: Citation `Wang2026SRL' on page 3 undefined on input line 99.
-
-
-LaTeX Warning: Citation `Bastani2025' on page 3 undefined on input line 100.
-
-
-LaTeX Warning: Citation `Jin2025' on page 3 undefined on input line 104.
-
-
-LaTeX Warning: Citation `Hilliger2025' on page 3 undefined on input line 104.
-
-
-LaTeX Warning: Citation `Jabbour2025' on page 3 undefined on input line 104.
-
-
-LaTeX Warning: Citation `Bastani2025' on page 3 undefined on input line 106.
-
-
-LaTeX Warning: Citation `Bastani2025' on page 3 undefined on input line 109.
-
-(./templateArxiv.bbl
-
-[3]
-./templateArxiv.bbl:19: Undefined control sequence.
-l.19 ...ch directions,'' {\em Computers \Computers
-                                                   & Education Education}, v...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./templateArxiv.bbl:19: Misplaced alignment tab character &.
-l.19 ... directions,'' {\em Computers \Computers &
-                                                   Education Education}, vol...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./templateArxiv.bbl:31: Undefined control sequence.
-l.31 ...rnal of Educational Technology \Technology
-                                                   & Society Society}, vol.~...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./templateArxiv.bbl:31: Misplaced alignment tab character &.
-l.31 ...al of Educational Technology \Technology &
-                                                   Society Society}, vol.~10...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[4])
+[3] (./templateArxiv.bbl
 
-[5] (./templateArxiv.aux)
+[4]
+
+[5])
+
+[6] (./templateArxiv.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `templateArxiv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `templateArxiv.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  0C40CEB4BEE47414669EB910A229FF7B;2130.
+Package rerunfilecheck Info: File `templateArxiv.out' has not changed.
+(rerunfilecheck)             Checksum: 0C40CEB4BEE47414669EB910A229FF7B;2130.
  ) 
 Here is how much of TeX's memory you used:
- 12453 strings out of 473190
- 205366 string characters out of 5704334
- 728898 words of memory out of 5000000
- 35356 multiletter control sequences out of 15000+600000
- 587095 words of font info for 157 fonts, out of 8000000 for 9000
+ 12825 strings out of 473190
+ 210385 string characters out of 5704334
+ 738321 words of memory out of 5000000
+ 35674 multiletter control sequences out of 15000+600000
+ 593167 words of font info for 180 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,11n,93p,1090b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,93p,1090b,568s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on templateArxiv.pdf (5 pages, 360836 bytes).
+Output written on templateArxiv.pdf (6 pages, 373522 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 38 named destinations out of 1000 (max. 500000)
- 29190 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 221 PDF objects out of 1000 (max. 8388607)
+ 200 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 35438 words of extra memory for PDF output out of 35830 (max. 10000000)
 

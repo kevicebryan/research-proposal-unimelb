@@ -15,10 +15,13 @@ T.~Xu and Y.~Chen, ``Integrating generative ai with human-centered pedagogy: An 
 \bibitem{qian2025pedagogical}
 Y.~Qian, ``Pedagogical applications of generative ai in higher education: A systematic review of the field,'' {\em TechTrends}, vol.~69, 06 2025.
 
-\bibitem{xia2025systematic}
-Q.~Xia, Q.~Liu, A.~Tlili, and T.~K. Chiu, ``A systematic literature review on designing self-regulated learning using generative artificial intelligence and its future research directions,'' {\em Computers \Computers & Education Education}, vol.~240, p.~105465, 09 2025.
+\bibitem{ma2025preparing}
+Y.~Ma, Y.~Su, M.~Li, Y.~Zhang, W.~Chai, X.~Zhao, and A.~Huang, ``Preparing students for an ai-driven world: Generative ai and curriculum reform in higher education,'' {\em Frontiers of Digital Education}, vol.~2, pp.~1--22, 12 2025.
 
-\bibitem{WANG2026}
+\bibitem{xia2025systematic}
+Q.~Xia, Q.~Liu, A.~Tlili, and T.~K. Chiu, ``A systematic literature review on designing self-regulated learning using generative artificial intelligence and its future research directions,'' {\em Computers \& Education}, vol.~240, p.~105465, 09 2025.
+
+\bibitem{Wang2024}
 D.~Wang, S.~Yu, X.~Jing, Q.~Liu, and Q.~Lu, ``Catalyst for future education: An empirical study on the impact of artificial intelligence generated content on college students’ innovation ability and autonomous learning,'' {\em Education and Information Technologies}, vol.~30, pp.~9949--9968, 12 2024.
 
 \bibitem{Loughlin2026}
@@ -28,7 +31,7 @@ J.~Loughlin, ``Navigating the artificial intelligence landscape in higher educat
 J.~Kim, S.-S. Lee, R.~Detrick, J.~Wang, and N.~Li, ``Students-generative ai interaction patterns and its impact on academic writing,'' {\em STEMPS Faculty Publications}, no.~390, 2025.
 
 \bibitem{KlimovaPikhart2025}
-Y.~Klimova and J.~Pikhart, ``Over-reliance on ai: A systemic review of its impact on students' learning and development,'' {\em Journal of Educational Technology \Technology & Society Society}, vol.~10, pp.~1--12, 01 2025.
+Y.~Klimova and J.~Pikhart, ``Over-reliance on ai: A systemic review of its impact on students' learning and development,'' {\em Journal of Educational Technology \& Society}, vol.~10, pp.~1--12, 01 2025.
 
 \bibitem{Lo2023}
 L.~S. Lo, ``The clear path: A framework for enhancing information literacy through prompt engineering,'' {\em Journal of Academic Librarianship}, vol.~4, 2023.
@@ -37,12 +40,18 @@ L.~S. Lo, ``The clear path: A framework for enhancing information literacy throu
 E.~R. Mollick and L.~Mollick, ``Assigning ai: Seven approaches for students, with prompts,'' tech. rep., The Wharton School Research Paper, 09 2023.
 \newblock Available at SSRN: \url{https://ssrn.com/abstract=4475995} or \url{http://dx.doi.org/10.2139/ssrn.4475995}.
 
-\bibitem{Wang2026SRL}
-H.~Wang, Z.~Wang, and T.~Zhou, {\em Generative AI and Self-Regulated Learning in Education: A Scientometric Review}, p.~301–307.
-\newblock New York, NY, USA: Association for Computing Machinery, 2026.
+\bibitem{Yazici2024}
+A.~Yazici, P.~Mejia-Domenzain, J.~Frej, and T.~K\"{a}ser, ``Gelex: Generative ai-hybrid system for example-based learning,'' in {\em Extended Abstracts of the CHI Conference on Human Factors in Computing Systems}, CHI EA '24, (New York, NY, USA), Association for Computing Machinery, 2024.
+
+\bibitem{Lyu2025}
+B.~Lyu, C.~Li, H.~Li, H.~Oh, Y.~Song, W.~Zhu, and W.~Xing, ``The role of teachable agents’ personality traits on student-ai interactions and math learning,'' {\em Computers \& Education}, vol.~234, p.~105314, 04 2025.
 
 \bibitem{Bastani2025}
 H.~Bastani, O.~Bastani, A.~Sungu, H.~Ge, O.~Kabakci, and R.~Mariman, ``Generative ai without guardrails can harm learning: Evidence from high school mathematics,'' {\em Proceedings of the National Academy of Sciences}, vol.~122, no.~26, p.~e2422633122, 2025.
+
+\bibitem{Wang2026SRL}
+H.~Wang, Z.~Wang, and T.~Zhou, {\em Generative AI and Self-Regulated Learning in Education: A Scientometric Review}, p.~301–307.
+\newblock New York, NY, USA: Association for Computing Machinery, 2026.
 
 \bibitem{Jin2025}
 Y.~Jin, K.~Yang, L.~Yan, V.~Echeverria, L.~Zhao, R.~Alfredo, M.~Milesi, J.~X. Fan, X.~Li, D.~Gasevic, and R.~Martinez-Maldonado, ``Chatting with a learning analytics dashboard: The role of generative ai literacy on learner interaction with conventional and scaffolding chatbots,'' in {\em Proceedings of the 15th International Learning Analytics and Knowledge Conference}, LAK '25, (New York, NY, USA), p.~579–590, Association for Computing Machinery, 2025.
@@ -52,5 +61,17 @@ I.~Hilliger, M.~P\'{e}rez-Sanagust\'{\i}n, E.~Villalobos, R.~Ferreira, and C.~Go
 
 \bibitem{Jabbour2025}
 J.~Jabbour, K.~Kleinbard, O.~Miller, R.~Haussman, and V.~J. Reddi, ``Socratiq: A generative ai-powered learning companion for personalized education and broader accessibility,'' in {\em Proceedings of the Workshop on Computer Architecture Education}, WCAE '25, (New York, NY, USA), Association for Computing Machinery, 2025.
+
+\bibitem{Liding2026}
+Z.~Liding, M.~Osmolovskiy, H.~Lanka, R.~Howard, N.~Roy, and R.~Borela, ``To tell or to ask? comparing the effects of targeted vs. socratic ai hints,'' pp.~1423--1424, 02 2026.
+
+\bibitem{Okita2013}
+S.~Y. Okita and D.~L. Schwartz, ``Learning by teaching human pupils and teachable agents: The importance of recursive feedback,'' {\em Journal of the Learning Sciences}, vol.~22, no.~3, pp.~375--412, 2013.
+
+\bibitem{Fiorella2023}
+L.~Fiorella, ``Learning by teaching,'' in {\em In Their Own Words: What Scholars and Teachers Want You To Know About Why and How To Apply the Science of Learning in Your Academic Setting} (C.~E. Overson, C.~M. Hakala, L.~L. Kordonowy, and V.~A. Benassi, eds.), pp.~158--170, Society for the Teaching of Psychology, 2023.
+
+\bibitem{Wong2026}
+S.~Wong and S.~Lim, ``The powerful teacher: A power hypothesis for the benefits of learning-by-teaching,'' {\em Educational Psychology Review}, vol.~38, p.~26, 2026.
 
 \end{thebibliography}

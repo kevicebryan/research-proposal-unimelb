@@ -1,6 +1,6 @@
 # Thematic Analysis: Grouped Notes by Theme
 
-*Source: Notes from Papers.pdf (pages 3–23), organised under the 10 themes from pages 1–2.*
+_Source: Notes from Papers.pdf (pages 3–23), organised under the 10 themes from pages 1–2._
 
 ---
 
@@ -17,12 +17,12 @@
 ## Suggested research question and hypothesis
 
 **Research question:**  
-*How do direct-answer, Socratic, and reverse-tutoring (protégé effect) generative AI tutoring styles compare in terms of (a) student knowledge acquisition and (b) confidence calibration?*
+_How do direct-answer, Socratic, and reverse-tutoring (protégé effect) generative AI tutoring styles compare in terms of (a) student knowledge acquisition and (b) confidence calibration?_
 
 **Hypothesis:**  
 Reverse tutoring (student teaches the AI as a naive tutee) will lead to better knowledge mastery and better alignment between confidence and actual competence than both the Socratic chatbot and the direct-answer chatbot, because teaching forces learners to organise knowledge and exposes gaps (protégé effect), reducing the illusion of competence while supporting deeper learning.
 
-*(Sub-questions you could add: Which style best supports long-term retention? Do self-efficacy and perceived difficulty differ across conditions?)*
+_(Sub-questions you could add: Which style best supports long-term retention? Do self-efficacy and perceived difficulty differ across conditions?)_
 
 ---
 
@@ -42,7 +42,7 @@ Reverse tutoring (student teaches the AI as a naive tutee) will lead to better k
 - **Prather et al. (2025):** Trend from banning GenAI towards integrating with hybrid models that combine traditional pedagogy with AI-assisted exploration. Prompt engineering as required competency; GenAI lowering entry barrier for complex computing tasks; human oversight needed.
 - **Ma et al. (2025):** GenAI is no longer optional but a necessity; pedagogical shift from memorization to problem solving & active learning (project-based, interdisciplinary). Human-centric competencies (critical judgment, ethical judgement) remain important. Modular, tiered, problem-focused strategy so GenAI serves as catalyst for innovation.
 - **Pham (2026):** Critical need for educators to reflect on ethical implications; UNESCO AI Competency Framework as global standards for what students & educators need regarding AI.
-- **Alshumaimeri et al. (2026):** Shift in assessment towards the *learning process* (e.g. oral examination, critical AI-output evaluations). Teacher autonomy vital; pedagogical decisions must remain human-centric and ethically grounded.
+- **Alshumaimeri et al. (2026):** Shift in assessment towards the _learning process_ (e.g. oral examination, critical AI-output evaluations). Teacher autonomy vital; pedagogical decisions must remain human-centric and ethically grounded.
 - **Krause et al. (2025):** GenAI changing how knowledge is accessed and processed. Institutions must move beyond general policies to guidelines addressing unique needs of students & teachers.
 - **Xu & Chen (2026):** GenAI as partner in human-centred pedagogy focusing on creative and critical thinking; human as final judge; AI as digital whiteboard; students focus on higher-order skills (synthesis, critique, design), GenAI for scaffolding and automating repetitive tasks.
 - **Li (2025):** AI-driven oral assessment for ESL; G-ASR tool; more interactive than teacher in one measure (60% AI, 40% teacher).
@@ -62,10 +62,10 @@ Generative AI is transforming higher education from a focus on banning the techn
 **Grouped notes:**
 
 - **Sallai et al. (2024):** Students find it easier to learn at the start, but mixed perceptions by autumn; overuse → lower quality work, generic essays. **Abbas et al. (cited):** excessive use of ChatGPT reduces academic performance and memory.
-- **Wang et al. (2026) – Postgraduate:** Productivity Paradox—AI speeds up drafting but leads to reduction in depth of critical analysis. Requires healthy skepticism and oversight of AI-generated contributions.
+- **Wang et al. (2024) – Postgraduate:** Productivity Paradox—AI speeds up drafting but leads to reduction in depth of critical analysis. Requires healthy skepticism and oversight of AI-generated contributions.
 - **Hou et al. (2025):** Patterns of reliance: Initial consultation, Verification seeking, **Content delegation** (adopting AI-generated content into final output). Blind reliance → lower cognitive engagement; using AI as critical partner → improved problem-solving strategies.
 - **Lodge et al. (2026):** Risk of cognitive outsourcing when students rely heavily on AI to plan, organise, and evaluate; they fail to develop internal self-regulation skills. GenAI not yet supportive of self-regulated learning unless pedagogically engineered to provide hints & scaffold rather than direct answers.
-- **Bastani et al. (2025):** GPT Base (direct answer): 48% improvement in practice, but when AI removed, 17% *worse* than no-AI control. AI as crutch—complete task without acquiring underlying skills.
+- **Bastani et al. (2025):** GPT Base (direct answer): 48% improvement in practice, but when AI removed, 17% _worse_ than no-AI control. AI as crutch—complete task without acquiring underlying skills.
 - **Klimova & Pikhart (2025):** Over-reliance on AI can reduce face-to-face interactions, declining interpersonal skills and emotional intelligence → social anxiety, isolation. Blurs line between leisure and academic task.
 - **Miller & Thompson (2026):** Students prioritise speed & convenience of AI summaries over rigorous verification of underlying sources.
 - **Qian (2025):** AI enhances productivity but risks students outsourcing critical cognitive tasks to the model (“brain drain”).
@@ -87,7 +87,7 @@ Students increasingly use AI as a shortcut to maximise productivity and meet dea
 - **Sallai et al. (2024):** Convincing tone of AI chatbots gives illusion that output is true. Lack of minimal foundation knowledge makes it hard to validate AI-generated content → curriculum needs to be adjusted.
 - **Miller & Thompson (2026):** Students proficient at prompting but lack skills to evaluate synthetic coherence of AI response → overlook hallucination. Eye-tracking and post-task evaluation used to study credibility and trust.
 - **Wang et al. (2026) – Postgraduate:** Higher awareness of academic integrity & risk of AI hallucination among postgrads; need for healthy skepticism.
-- **Yang et al. (2025):** Students achieve *higher* learning outcomes (test scores) with GenAI than with teachers—but teacher group has *higher self-efficacy*. AI helps performance; teachers are more effective at building student *confidence* in their own abilities. No significant difference in learning satisfaction.
+- **Yang et al. (2025):** Students achieve _higher_ learning outcomes (test scores) with GenAI than with teachers—but teacher group has _higher self-efficacy_. AI helps performance; teachers are more effective at building student _confidence_ in their own abilities. No significant difference in learning satisfaction.
 - **Duelen et al. (2024):** Simply flagging content as fake is ineffective; users need to develop internal critical thinking. Socratic method helps users recognise cognitive biases & emotional triggers and become more cognitively active vs passive fact-checking.
 - **Pham (2026):** Survey: 100% of sampled students support ChatGPT but are concerned about authenticity & reliability of content.
 - **Jivtode (2024):** Data might be wrong → false results; over-reliance can limit critical thinking and long-term development.
@@ -108,9 +108,9 @@ Because AI generates text with a highly authoritative and fluent tone, students 
 **Grouped notes:**
 
 - **Sallai et al. (2024) – Policy:** Assessment that requires documentation of development to final output (e.g. pitches, video updates); write down steps/strategies to help students draw connections; delay adoption until foundation aligned; encourage students to track and share use of GenAI.
-- **Bastani et al. (2025):** Design of AI interaction is more important for learning than model capabilities. GPT Tutor (hints & guidance) → 127% improvement in practice and *no* learning loss when removed; GPT Base (direct answer) → learning loss. GenAI without guardrails can harm learning.
-- **Liding et al. (2026):** Compares Targeted vs Socratic hints (coding). Socratic: worse efficiency (more time, attempts, keystrokes), higher error ratio; no evidence Socratic improved long-term outcomes or coding skills. *Counterpoint:* in this domain, targeted approach remained superior despite Socratic being pedagogically sound.
-- **Perez et al. (2026):** RAG pipeline gives effective feedback; successfully provides *scaffolding*—guides rather than direct answers; mitigates hallucinations when grounded in course materials.
+- **Bastani et al. (2025):** Design of AI interaction is more important for learning than model capabilities. GPT Tutor (hints & guidance) → 127% improvement in practice and _no_ learning loss when removed; GPT Base (direct answer) → learning loss. GenAI without guardrails can harm learning.
+- **Liding et al. (2026):** Compares Targeted vs Socratic hints (coding). Socratic: worse efficiency (more time, attempts, keystrokes), higher error ratio; no evidence Socratic improved long-term outcomes or coding skills. _Counterpoint:_ in this domain, targeted approach remained superior despite Socratic being pedagogically sound.
+- **Perez et al. (2026):** RAG pipeline gives effective feedback; successfully provides _scaffolding_—guides rather than direct answers; mitigates hallucinations when grounded in course materials.
 - **Lodge et al. (2026):** GenAI must be pedagogically engineered to provide hints & scaffold rather than direct answers to support self-regulated learning.
 - **Lo (2023) – CLEAR:** Reflective—analyse response for accuracy and bias; Adaptive—keep refining; humans responsible for final output.
 - **Hilliger et al. (2026):** Socratic chatbot responds with open-ended questions & reflective prompts rather than direct answers; 85% of educators agreed useful for promoting self-regulated learning.
@@ -120,7 +120,7 @@ Because AI generates text with a highly authoritative and fluent tone, students 
 - **Jin et al. (2025):** Scaffolding chatbot (follow-up questions, deeper analysis & self-reflection) vs conventional (direct answers). Low-literacy learners struggle with scaffolding bots (frustrating); GenAI should scaffold critical thinking and require foundational AI literacy.
 
 **Conclusion (Theme 4):**  
-Desirable friction—scaffolding, hints, open-ended questions, and process-oriented assessment—is widely recommended to align performance with real competence and reduce over-trust. Empirical support is strong in some domains (e.g. math, Bastani et al.) and mixed in others (e.g. coding, Liding et al.), underscoring the need to *test* which interaction styles best improve both learning and confidence calibration in your target context, which is exactly what your proposal aims to do.
+Desirable friction—scaffolding, hints, open-ended questions, and process-oriented assessment—is widely recommended to align performance with real competence and reduce over-trust. Empirical support is strong in some domains (e.g. math, Bastani et al.) and mixed in others (e.g. coding, Liding et al.), underscoring the need to _test_ which interaction styles best improve both learning and confidence calibration in your target context, which is exactly what your proposal aims to do.
 
 **Proposed paragraph for proposal:**  
 To combat false confidence, AI tools must be designed with “speed bumps” that force cognitive engagement rather than handing out direct answers. Desirable friction—scaffolding, hints, and open-ended questions—is widely recommended to align performance with real competence. Empirical support is strong in some domains and mixed in others, underscoring the need to test which interaction styles best improve both learning and confidence calibration; this proposal compares direct-answer, Socratic, and reverse-tutoring styles to do exactly that.
@@ -181,7 +181,7 @@ AI is only an effective learning partner if students possess a baseline understa
 
 **Grouped notes:**
 
-- **Bastani et al. (2025):** GPT Base (direct answer): 48% improvement in practice; when AI removed, 17% *worse* than control. GPT Tutor (Socratic) no learning loss. AI as crutch—complete task without acquiring underlying skills.
+- **Bastani et al. (2025):** GPT Base (direct answer): 48% improvement in practice; when AI removed, 17% _worse_ than control. GPT Tutor (Socratic) no learning loss. AI as crutch—complete task without acquiring underlying skills.
 - **Sallai et al. (2024):** Students that use chatbots too much produce lower quality, generic work; direct outputs bypass mental friction.
 - **Liding et al. (2026):** Targeted hints (clear, concise suggestion) superior to Socratic in their coding study—more efficient, fewer repeated errors; Socratic did not improve long-term outcomes here.
 - **Soyoof et al. (2026):** ChatGPT feedback one-directional and static (predefined prompts); human feedback outperformed on both immediate & post-test; students trust teacher more; AI feedback mechanical, repetitive, boring → frustrated students, undermined trust.
@@ -209,7 +209,7 @@ When AI is used passively to provide direct answers (e.g. summaries or ready-mad
 - **Tamang et al. (2021):** Socratic method 59% learning gain vs free self-explanation 30% (both for source code comprehension in Java); works regardless of prior knowledge.
 - **Duelen et al. (2024):** Socratic AI for disinformation—guiding questions, Island approach; users develop internal critical thinking, recognise biases, more cognitively active than passive fact-checking.
 - **GELEX (Yazici et al. 2024):** Prompt engineering + guardrails force LLM to act as Socratic tutor; hybrid expert module enforces pedagogical constraints; reduces workload (expert gives base example, AI builds variations).
-- **Bastani et al. (2025):** GPT Tutor (Socratic, hints & guidance): 127% improvement in practice, *no* learning loss when removed (equal to control).
+- **Bastani et al. (2025):** GPT Tutor (Socratic, hints & guidance): 127% improvement in practice, _no_ learning loss when removed (equal to control).
 - **Hilliger et al. (2026):** Socratic chatbot: open-ended questions & reflective prompts, no direct answers; 85% educators agreed useful for self-regulated learning; built with GPT-4o-mini; scenarios in CS, language, math.
 - **Ding et al. (2024):** Framework to turn LLMs from answer engines into Socratic tutors in math; back-and-forth encourages verbalising reasoning and correcting misconceptions; compare Chain-of-Thought vs Tree-of-Thought for teaching quality.
 - **SocratiQ (Jabbour et al. 2025):** Prevents direct-answer trap; conversational engine guides through complex topics; benefits of 1-on-1 Socratic tutoring at scale.
@@ -231,17 +231,19 @@ A Socratic AI introduces “constructive friction” by asking open-ended questi
 
 **Grouped notes:**
 
-- **Your design notes (p.19–20):** Reverse Tutoring (WILL USE): Student is teacher; AI acts like a 10-year-old asking clarifying questions (“Wait, but why does X happen”).
 - **Okita & Schwartz (2013):** Learning by teaching with Recursive Feedback—tutor observes how tutee applies what’s been taught. Protégé effect: people learn harder when they know they must teach; significant learning gain after teaching sessions; tutor infers from tutee’s outcomes.
 - **Observing tutee’s mistakes/successes** allows tutor to infer own understanding; if tutee fails, tutor’s explanation may have been incomplete → triggers self-correction. Having a third party (tutee) important so knowledge must be robust enough to generalise.
 - **Mollick “Seven Ways”:** AI-Student (learning by teaching)—student teaches the AI, reinforces own understanding.
-- **Kim et al. (2026):** High literacy takes AI as *partner*; collaborative use supports better outcomes—consistent with teaching-to-AI as partnership.
+- **Kim et al. (2026):** High literacy takes AI as _partner_; collaborative use supports better outcomes—consistent with teaching-to-AI as partnership.
+- **Fiorella & Logan (2023):** The mechanism aligns with reverse tutoring through two processes: (1) **generative processing** (organising/integrating knowledge coherently) and (2) **metacognitive monitoring** (detecting explanation gaps). Active explanation shifts learners from surface recognition to flexible mastery.
+- **Lyu et al. (2025):** The personality design of teachable agents matters. Agents emphasising **openness** (curiosity/variety) elicited more student explanations and higher-order engagement than extraversion- or agreeableness-focused agents. Extraverted agents increased interaction volume but often produced shallower engagement. Reverse tutoring effectiveness is therefore not one-size-fits-all and depends on persona design.
+- **Wong & Lim (2026):** Learning-by-teaching also has a socio-psychological mechanism: assigning the learner a teacher role increases perceived power/agency, which boosts cognitive engagement and outcomes. Teaching/explaining groups outperformed note-taking groups in basic comprehension, suggesting benefits beyond knowledge organisation alone.
 
 **Conclusion (Theme 9):**  
-Reverse tutoring (student teaches AI as naive tutee) is underpinned by the protégé effect and recursive feedback: teaching forces organisation of knowledge and exposes gaps. Few papers in your notes implement it with GenAI directly, so your study can fill a gap by comparing it to Socratic and passive conditions and testing whether it improves both learning and confidence calibration.
+Reverse tutoring (student teaches AI as naive tutee) is supported by converging cognitive and socio-psychological mechanisms. Cognitively, it drives generative processing and metacognitive gap detection (Fiorella et al.). Behaviorally, effectiveness is sensitive to AI persona design (Lyu et al.), with openness-oriented agents eliciting richer explanation work than socially expressive but shallow alternatives. Psychologically, adopting a teacher role can increase perceived agency/power and engagement (Wong & Lim). Together, these findings strengthen the case that reverse tutoring can improve mastery and calibration, while highlighting that tutor persona design is a key experimental factor.
 
 **Proposed paragraph for proposal:**  
-Reverse tutoring creates “generative friction” by having the student explain a concept to an AI acting as a confused novice, forcing students to organise their mental models and exposing gaps—the protégé effect. Learning-by-teaching with recursive feedback (e.g. Okita & Schwartz) shows significant learning gains; Mollick’s “AI-Student” role formalises this for GenAI. Few studies have compared reverse tutoring with GenAI against Socratic and direct-answer conditions; this proposal tests the hypothesis that reverse tutoring will lead to the best mastery and confidence calibration.
+Reverse tutoring creates “generative friction” by having the student explain a concept to an AI acting as a confused novice, forcing students to organise their mental models and exposing gaps—the protégé effect. Beyond recursive feedback, recent evidence suggests that learning-by-teaching works through generative processing and metacognitive monitoring (Agarwal et al.), and that outcomes can vary with agent personality design, where openness-oriented teachable agents elicit deeper explanation behavior (Lyu et al.). A further mechanism is socio-psychological: the teacher role can increase learners’ sense of agency/power and thereby strengthen engagement and comprehension (Wong & Lim). This proposal therefore compares reverse tutoring against Socratic and direct-answer conditions to test which design best improves mastery and confidence calibration.
 
 ---
 
@@ -251,7 +253,7 @@ Reverse tutoring creates “generative friction” by having the student explain
 
 **Grouped notes:**
 
-- **Yang et al. (2025):** Teacher group had *higher self-efficacy* than AI group; AI group had higher test scores. AI good for task performance; teachers better at building *confidence* in own abilities. No significant difference in learning satisfaction (both satisfied).
+- **Yang et al. (2025):** Teacher group had _higher self-efficacy_ than AI group; AI group had higher test scores. AI good for task performance; teachers better at building _confidence_ in own abilities. No significant difference in learning satisfaction (both satisfied).
 - **Soyoof et al. (2026):** Human feedback outperformed ChatGPT (immediate & post-test). Trust: students trust teacher more; AI feedback mechanical, repetitive, boring → frustration, undermined trust. Feedback must be collaborative and within ZPD; teachers better at identifying and staying within ZPD than generic AI (Vygotsky).
 - **Klimova & Pikhart (2025):** AI has dual impact on wellbeing—supportive but also stressor (fatigue, technostress). Over-reliance → less face-to-face → decline in interpersonal skills, emotional intelligence → social anxiety, isolation. Blurs leisure vs academic.
 - **Wang et al. (2024) – Catalyst:** Tension between mastering AI and over-reliance (undermining independent thought); risk of decline in cognitive skills and academic integrity; use “judiciously”; nurture critical thinking.
@@ -259,7 +261,7 @@ Reverse tutoring creates “generative friction” by having the student explain
 - **Abbes et al. (2024):** Gamification + GenAI for personalized learning; adjust to user personality, values, motivation; Education 5.0—self-assessment, ownership of learning; field still lacks models that dynamically adapt content and engagement.
 - **Gunawardana et al. (2025):** GenAI for ADHD-friendly LMS interfaces; reduces cognitive noise; minimalism, focus states, standardised palettes; more effective and empathetic design; revolutionary for adaptive personalised learning.
 - **Hilliger et al. (2026):** 85% agreed Socratic chatbot useful for self-regulated learning and easy to learn and use—positive usability and perceived usefulness.
-- **Jin et al. (2025):** Low-literacy learners find scaffolding bots *frustrating* and revert to simple queries—psychological cost of high-friction design for some learners.
+- **Jin et al. (2025):** Low-literacy learners find scaffolding bots _frustrating_ and revert to simple queries—psychological cost of high-friction design for some learners.
 
 **Conclusion (Theme 10):**  
 Psychological outcomes are not redundant with performance: AI can raise scores while self-efficacy stays lower than with a human teacher, and trust and satisfaction depend on feedback quality and interaction design. High-friction methods (Socratic, scaffolding) can improve learning but may increase frustration for low-literacy or time-pressed students. Your study can measure self-efficacy, trust, and perceived difficulty/fatigue alongside knowledge and confidence calibration to capture these trade-offs.
@@ -271,7 +273,6 @@ Beyond test scores, different AI interactions affect students’ self-efficacy, 
 
 ## Summary Table: Papers by Theme (Quick Reference)
 
-
 | Theme                        | Key papers                                                                                                |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------- |
 | 1 – Pedagogical shift        | Sallai, Wenjuan, Integrating GenAI, Mollick, Qian, Prather, Ma, Pham, Alshumaimeri, Krause, Xu & Chen, Li |
@@ -282,10 +283,9 @@ Beyond test scores, different AI interactions affect students’ self-efficacy, 
 | 6 – AI literacy & foundation | Sallai, Kim, Jin, Wang (Catalyst), Ma, Perez, Lo, Shamsi                                                  |
 | 7 – Passive / crutch         | Bastani, Sallai, Liding, Soyoof, Hou, Lodge, Jin, Ding, Debets, Jivtode                                   |
 | 8 – Socratic tutor           | Tamang, Duelen, GELEX, Bastani, Hilliger, Ding, SocratiQ, Favero, Alshaik; counterpoint Liding            |
-| 9 – Reverse tutoring         | Your design, Okita & Schwartz, Mollick AI-Student, Kim                                                    |
+| 9 – Reverse tutoring         | Your design, Okita & Schwartz, Mollick AI-Student, Kim, Agarwal, Lyu, Wong & Lim                          |
 | 10 – Psychological           | Yang, Soyoof, Klimova, Wang (Catalyst), Shamsi, Abbes, Gunawardana, Hilliger, Jin                         |
-
 
 ---
 
-*End of thematic analysis. Use this document for your introduction (Themes 1–4) and SLR (Themes 5–10), and cite the grouped papers as needed.*
+_End of thematic analysis. Use this document for your introduction (Themes 1–4) and SLR (Themes 5–10), and cite the grouped papers as needed._

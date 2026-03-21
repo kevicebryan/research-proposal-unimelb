@@ -12,6 +12,7 @@
 \usepackage{lipsum}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
+\usepackage{titlesec}
 \graphicspath{{media/}}
 
 \pagestyle{fancy}
@@ -19,6 +20,8 @@
 \renewcommand{\headrulewidth}{0pt}
 \rhead{\textit{ }}
 \cfoot{\thepage}
+% Tighten section spacing (PRIMEarxiv defaults are a bit generous).
+\titlespacing*{\section}{0pt}{1.2ex plus 0.2ex minus 0.1ex}{0.6ex}
 
 %% Title and author (used on custom title page)
 \title{Investigating the Impact of Generative AI Tutoring Styles on Student Knowledge Acquisition and Confidence Calibration}
@@ -39,7 +42,10 @@
   \large
   Kevin Bryan\\
   \texttt{kevinb@student.unimelb.edu.au}\\[0.8cm]
-  \textbf{Word count:} \texttt{[to be filled]}\\[0.6cm]
+  \textbf{Word count:} \texttt{1367 (current draft)}\\[0.25cm]
+  {\footnotesize\textit{[DELETE BEFORE SUBMISSION] Section word-count notes (current / target for 6000 words):}}\\
+  {\footnotesize\textit{Introduction: 1153 / 1200 \quad Literature Review: 19 / 3000 \quad Research Question: 106 / 500}}\\
+  {\footnotesize\textit{Research Plan: 10 / 1000 \quad Conclusion: 1 / 300}}\\[0.35cm]
   Department of Computing and Information Systems\\
   The University of Melbourne\\[0.4cm]
   \today
@@ -55,64 +61,132 @@
 
 % ========== Main content ==========
 \section{Introduction}
-% Target: 1--2 pages. Draw on Themes 1--4 from thematic\_analysis\_grouped.md.
-
-
 % Context: pedagogical shift, productivity paradox, illusion of truth, need for desirable friction.
-The rise of Generative AI (GenAI) and its capabilities has recently become a major topic of discussion in the education industry \cite{sallai2024approach}.
-Ever since the release of ChatGPT by OpenAI in November 2022, the education landscape has evolved tremendously \cite{sallai2024approach}.
-Whereas institutions initially banned the use of GenAI, the trend has shifted to embracing and integrating GenAI into pedagogy \cite{prather2024beyond}.
-This transition is supported by GenAI's ability to deliver personalized learning and customized feedback based on individual student needs \cite{wenjuan2024who}.
-By utilizing GenAI, students are now able to focus on higher-order skills such as critical thinking and creativity, while AI scaffolds and automates repetitive tasks \cite{xu2026integrating,qian2025pedagogical}.
+The rise of Generative AI (GenAI) and its capabilities has become a major topic 
+of discussion in the education industry \cite{sallai2024approach}.
+Ever since the release of ChatGPT by OpenAI in November 2022, 
+the education landscape has evolved tremendously \cite{sallai2024approach}.
+Whereas institutions initially banned the use of AI, 
+the trend has shifted to embracing and integrating GenAI into pedagogy \cite{prather2024beyond}.
+This transition is supported by GenAI's ability to deliver 
+personalized learning and customized feedback based on individual student needs \cite{wenjuan2024who}.
+By utilizing GenAI, students are now able to focus on 
+higher-order skills such as critical thinking and creativity, 
+while AI scaffolds and automates repetitive tasks \cite{xu2026integrating,qian2025pedagogical}.
+Moreover, due to today's rapidly evolving professional landscape, 
+the adoption of GenAI in higher education has become a necessity rather than an option \cite{ma2025preparing}.
+Hence, institutions need to create an environment where AI can be used to enhance
+human intelligence rather than replace it \cite{sallai2024approach,qian2025pedagogical}.
 
 % Cognitive offloading, confidence miscalibration; need to test which tutoring style helps.
-However, if used unconsciously, GenAI can present a significant set of challenges.
-As stated before, GenAI is able to take over repetitive tasks \cite{xia2025systematic}, 
-but this could also lead to "cognitive offloading," where students outsource critical cognitive tasks to the AI \cite{xia2025systematic}.
-It becomes even more concerning as AI could also create a "productivity paradox," 
-where students experience increased productivity but lack depth in their critical analysis \cite{WANG2026}.
-For example,
-due to convenicence and speed that AI summaries provide, 
-students tend to prioritize using AI summaries over verifying the underlying sources \cite{Loughlin2026}.
-Despite the faster drafting process, the final result ended up being lower quality, with generic essays and a lack of critical analysis \cite{sallai2024approach,WANG2026}.
-This raises the importance of AI literacy, 
-as studies shows that students with higher AI literacy tend to take a collaborative approach 
-by planning and evaluatiing AI outputs, which consequently leads to better outcomes compared 
-to students with lower AI literacy which tends to over-rely on the AI \cite{KimetAl2026}. 
-Additionally, being over relaint on AI can reduce face-toface interaction, 
-leading to a decline in interpersonal skills and emotional intelligence 
-which consequently leads to social anxiety and isolation \cite{KlimovaPikhart2025}.
+However, the adoption of GenAI in higher education comes with a significant set of challenges.
+As previously mentioned, GenAI can be useful in taking over repetitive tasks \cite{xia2025systematic}, 
+but this also leads to "cognitive offloading" 
+where students outsource critical cognitive tasks to the AI \cite{xia2025systematic}.
+It becomes even more concerning as AI can also create a "productivity paradox," 
+where students experience increased productivity but lack depth in their critical analysis \cite{Wang2024}.
+For instance,
+due to convenience and speed that AI summaries provide, 
+students tend to prioritize these summaries over verifying the underlying sources \cite{Loughlin2026}.
+Despite the faster drafting process, the final result ended up being lower quality, 
+with generic essays and a lack of critical analysis \cite{sallai2024approach,Wang2024}. 
+Moreover, this matter is further supported by the so-called "death of essays", 
+a phenomenon that has risen to prominence since COVID-19 due to the 
+increase in take-home exams and students utilizing AI to cheat and plagiarize \cite{sallai2024approach}.
+This raises the importance of AI literacy.
+Studies show that students with higher AI literacy tend to take a collaborative approach 
+by planning and evaluating AI outputs, which consequently leads to better outcomes compared 
+to students with lower AI literacy, who tend to over-rely on AI just to get the job done \cite{KimetAl2026}.
+Additionally, over-reliance on AI can lead to a decline in face-to-face interactions, 
+negatively impacting students' interpersonal skills and emotional intelligence. 
+Thus, increasing the risk of social anxiety and isolation \cite{KlimovaPikhart2025}.
 
 % Illusion of truth and confidence miscalibration
-As mentioned above, over-reliance on AI is a significant concern that must be addressed.
-AI tend to generate text with a convincing tone, giving an illusion that the output is always true, 
+As previously mentioned, over-reliance on AI is a significant concern that must be addressed.
+AI tends to generate text with a convincing tone, giving an illusion that the output is always true, 
 causing users to overlook hallucinations \cite{sallai2024approach, Loughlin2026}.
-Addressing this, students are required to possess foundational knowledge before adopting the tool
-to ensure they are able to critically validate the information provided as the human in the loop
-is responsible for the final output \cite{sallai2024approach,Lo2023}. 
-Thus, students must be taught to verify AI outputs, while educators should create critical 
-thinking assessments that can't be replicated by AI, such as video presentations or pitches \cite{Mollick2023,sallai2024approach}.
+To combat this, students are required to possess foundational knowledge before adopting the tool.
+This ensures they are able to critically validate the AI's information, 
+as the human in the loop is responsible for the final output produced \cite{sallai2024approach,Lo2023}. 
+Therefore, students must be taught to verify AI outputs \cite{Mollick2023}. 
+On the other hand, educators are encouraged to create critical thinking assessments 
+that can't be replicated by AI, such as video presentations or pitches \cite{Mollick2023,sallai2024approach}.
 
+This gap creates a strong opportunity for designing how students should interact with AI. 
+As previously mentioned, AI tutoring styles is not static \cite{wenjuan2024who}. 
+The characteristics of the AI's interaction can be engineered 
+using prompts (prompt engineering) and guardrails \cite{Yazici2024}. 
+In other words, poor learning outcomes are not solely based on the AI's accuracy 
+and performance, but also an issue with the interaction design itself \cite{Lyu2025,Bastani2025}.
 
 % The need of guardrails to combat the illusion of truth
-To combat the illusion of truth, AI tools must be designed with guardrails
-that encourage cognitive engagement rather than handing out direct answers \cite{Wang2026SRL}.
-In the context of learning, the design of the AI interaction itself is more important than the it's capabilities \cite{Bastani2025}.
-Evidence shows that the use of scaffolding techniques, such guiding hints and follow-up questions 
-are able to significantly improve student's learning outcomes.
-AI chatbots with these guardrails are referred to as Socratic chatbots, designed to prevent giving out 
-direct answers to encourage self-reflection and deep understanding of the topic \cite{Jin2025,Hilliger2025,Jabbour2025}.
+To address the illusion of truth, AI tools must be designed with guardrails that 
+encourage cognitive engagement rather than handing out direct answers \cite{Wang2026SRL}.
+In the context of learning, the design of the AI interaction itself is more important than its capabilities \cite{Bastani2025}.
+Evidence shows that the use of scaffolding techniques, such as guiding hints and follow-up questions, 
+are able to significantly improve students' learning outcomes \cite{Bastani2025}.
+AI chatbots with these guardrails are referred to as Socratic chatbots, which are designed to prevent giving out 
+direct answers to encourage self-reflection and deep understanding of the topic \cite{Jin2025, Hilliger2025, Jabbour2025}.
 When compared to default GenAI models, Socratic chatbots are able to produce 79\% more learning 
-improvments than default GenAI models (127\% vs. 48\%) in practice assesments \cite{Bastani2025}. 
-Additionally, unike the default model where students experience 
-learning loss when the AI is removed, 
-students did not experience any learning loss when the Socratic chatbot is removed \cite{Bastani2025}.
+improvements than the default models (127\% vs. 48\%) during practice assessment \cite{Bastani2025}. 
+Additionally, unlike the default model where students experience 
+learning loss when AI is removed, 
+students did not experience any learning loss when the Socratic chatbot is removed \cite{Bastani2025}. 
+This indicates that the default AI interaction may have short-term benefits, 
+but confidence outpaces actual understanding, creating an illusion of competence \cite{Bastani2025}. 
+Although the Socratic tutoring style works in many contexts, 
+it is not universally superior \cite{Liding2026}. 
+In the context of coding, a study comparing the effects of Socratic AI versus normal AI 
+shows that Socratic AI produces a higher error ratio and 
+has no evidence of improving long-term outcomes \cite{Liding2026}. 
+Furthermore, learners with lower AI literacy tend to find scaffolding bots 
+frustrating, which further amplifies the need for alternative tutoring styles \cite{Jin2025}.
+This underscores the need to look beyond Socratic tutoring. 
+It is important to explore other tutoring styles that 
+could effectively improve both learning and confidence calibration.
 
-% Compare direct, Socratic, reverse tutoring; hypothesis: protégé effect best for mastery and calibration.
-% current study only explores one tutoring style -> Socratic, lack of comparison to other tutoring style
-% however there are other tutoring styles that are provent to be effective , which is Reverse Tutoring (Protégé Effect)
-% this study aims to compare the 3 tutoring style and determine which one is the most effective for student's learning outcomes and confidence calibration
+% introducing reverse tutoring
+Yet most literature rarely compares alternative interaction designs within the same study. 
+Despite growing evidence on AI-supported learning, most studies evaluate one tutoring style at a time.
+As a result, the field still lacks clear comparative evidence on which tutoring style best 
+results in balanced learning outcomes as well as psychological learning benefits.
+In practice, GenAI can be deployed with a spectrum of 
+tutoring styles using prompt engineering and guardrails \cite{Yazici2024}. 
+Beyond Socratic approaches, evidence shows that reverse tutoring 
+can be effective in boosting cognitive engagement and knowledge mastery \cite{Okita2013,Fiorella2023,Lyu2025,Wong2026}.
+This pedagogical approach embodies the theory of 
+learning-by-teaching by using recursive feedback that 
+observes how a tutee applies what has been taught \cite{Okita2013}. 
+This approach is similar to designs where the AI takes the role of a student, 
+prompting the human learner to teach the AI, 
+thereby reinforcing the learner’s own understanding \cite{Mollick2023}.
+Studies show that reverse tutoring creates the protégé effect 
+where students learn harder when they know they must teach \cite{Okita2013,Wong2026}.
+There are two mechanisms that align with reverse tutoring \cite{Fiorella2023}:
+\begin{enumerate}
+    \item \textbf{Generative processing:} Students are encouraged to inherently organize and integrate their knowledge.
+    \item \textbf{Metacognitive monitoring:} Students are able to detect explanation gaps, which trigger self-correction.
+\end{enumerate}
+Moreover, this socio-psychological interaction shifts the learners 
+mindset to dig deeper into the topic, creating a more flexible 
+mastery of the topic \cite{Fiorella2023,Lyu2025}.
 
+% rq & goal of the sutdy
+Hence, in addition to the Socratic tutoring style, 
+this study introduces the reverse tutoring technique. 
+This study compares the three tutoring styles within a single comparative framework, 
+while assessing both cognitive and psychological outcomes. 
+In particular, reverse tutoring, which is grounded in learning-by-teaching theory, 
+despite showing clear effectiveness in improving learning outcomes, 
+remains under-explored in the GenAI context.
+Therefore, this study aims to fill that gap by asking how different tutoring styles 
+(direct-answer, Socratic, and reverse tutoring) compare in their 
+effects on learning performance, knowledge acquisition, self-efficacy, 
+and confidence calibration. This combined evaluation is important as 
+prior work shows that students can appear more productive 
+with AI but could lose their learning once the tool is removed \cite{Wang2024,Bastani2025}.
+Accordingly, this study aims to determine which tutoring style best supports durable 
+learning rather than short-term productivity.
 
 \section{Literature Review}
 % Target: 5--6 pages. Draw on Themes 5--10. Structure like the example proposal (subsections that build the argument).
@@ -128,9 +202,9 @@ students did not experience any learning loss when the Socratic chatbot is remov
 \section{Research Question}
 % Main RQ and hypothesis (from thematic\_analysis\_grouped.md).
 
-\textbf{Research question:} How do direct-answer, Socratic, and reverse-tutoring (prot\'eg\'e effect) generative AI tutoring styles compare in terms of (a) student knowledge acquisition and (b) confidence calibration?
+\textbf{Research question:} How do direct-answer, Socratic, and reverse-tutoring (prot\'eg\'e effect) generative AI tutoring styles compare in terms of (a) student learning performance and knowledge acquisition, (b) self-efficacy, and (c) confidence calibration?
 
-\textbf{Hypothesis:} Reverse tutoring (student teaches the AI as a naive tutee) will lead to better knowledge mastery and better alignment between confidence and actual competence than both the Socratic chatbot and the direct-answer chatbot, because teaching forces learners to organise knowledge and exposes gaps (prot\'eg\'e effect), reducing the illusion of competence while supporting deeper learning.
+\textbf{Hypothesis:} Reverse tutoring (student teaches the AI as a naive tutee) will lead to better knowledge mastery, stronger self-efficacy, and better alignment between confidence and actual competence than both the Socratic chatbot and the direct-answer chatbot, because teaching forces learners to organise knowledge and exposes gaps (prot\'eg\'e effect), reducing the illusion of competence while supporting deeper learning.
 
 Optional sub-questions: Which style best supports long-term retention? Do self-efficacy and perceived difficulty differ across conditions?
 

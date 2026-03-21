@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex templateArxiv"] 1773728328.93423 "templateArxiv.aux" "templateArxiv.bbl" "templateArxiv" 1773728582.19006 0
-  "./references.bib" 1773726880.95885 16993 38819f0a10798471d8bfb1d73217afa3 ""
+["bibtex templateArxiv"] 1774101784.18026 "templateArxiv.aux" "templateArxiv.bbl" "templateArxiv" 1774101795.23784 0
+  "./references.bib" 1774099185.73291 20635 23ddc7d81e411614bc9030b8cedad1da ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/bibtex/bst/base/ieeetr.bst" 1741388039 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "templateArxiv.aux" 1773728582.01966 2980 08ca4147ce01c0c9b0ecb47d929efbe6 "pdflatex"
+  "templateArxiv.aux" 1774101795.08101 3797 9df0237b6b64cbf73571309d73343700 "pdflatex"
   (generated)
   "templateArxiv.bbl"
   "templateArxiv.blg"
   (rewritten before read)
-["pdflatex"] 1773728581.47429 "/Users/kevinbryan/Code/School/MCS Research/Proposal/research-proposal-unimelb/templateArxiv.tex" "templateArxiv.pdf" "templateArxiv" 1773728582.19027 2
-  "/Users/kevinbryan/Code/School/MCS Research/Proposal/research-proposal-unimelb/templateArxiv.tex" 1773728580.40964 8961 e6c89dc06dd80d18bc098350944a41ed ""
+["pdflatex"] 1774101794.49711 "/Users/kevinbryan/Code/School/MCS Research/Proposal/research-proposal-unimelb/templateArxiv.tex" "templateArxiv.pdf" "templateArxiv" 1774101795.23803 0
+  "/Users/kevinbryan/Code/School/MCS Research/Proposal/research-proposal-unimelb/templateArxiv.tex" 1774101794.26571 13873 f45903dd295f172152f52ff837bdef1c ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1741388039 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1741388039 2971 def0b6c1f0b107b3b936def894055589 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -97,17 +97,18 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/psnfss/t1ptm.fd" 1741388039 774 61d7da1e9f9e74989b196d147e623736 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/refcount/refcount.sty" 1741388039 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1741388039 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/titlesec/titlesec.sty" 1741388039 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/units/nicefrac.sty" 1741388039 4029 0462ee5ab265cf59dc15a41a3b883101 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/url/url.sty" 1741388039 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346130 7452757cd3dccf35ed95e5913cd324e3 ""
   "PRIMEarxiv.sty" 1772412294.46078 7647 257f5f0b6c90ec491e05bd461066ae66 ""
   "media/uom.png" 1773708755.10202 278268 6fec4411ee428b63ab65654b22b1f53b ""
-  "templateArxiv.aux" 1773728582.01966 2980 08ca4147ce01c0c9b0ecb47d929efbe6 "pdflatex"
-  "templateArxiv.bbl" 1773728328.99449 5178 95956294dbb2394ea70fbb9488cd7d08 "bibtex templateArxiv"
-  "templateArxiv.out" 1773728582.02042 2130 0c40ceb4bee47414669eb910a229ff7b "pdflatex"
-  "templateArxiv.tex" 1773728580.40964 8961 e6c89dc06dd80d18bc098350944a41ed ""
-  "templateArxiv.toc" 1773728582.02071 1087 d1e8fb62c4ef7d474ec62a26bd8baf9c "pdflatex"
+  "templateArxiv.aux" 1774101795.08101 3797 9df0237b6b64cbf73571309d73343700 "pdflatex"
+  "templateArxiv.bbl" 1774101784.24379 6906 e162d2b9583fbf843fd1db77822d1818 "bibtex templateArxiv"
+  "templateArxiv.out" 1774101795.08163 2130 0c40ceb4bee47414669eb910a229ff7b "pdflatex"
+  "templateArxiv.tex" 1774101794.26571 13873 f45903dd295f172152f52ff837bdef1c ""
+  "templateArxiv.toc" 1774101795.08184 1087 498ce5ded23cf1026b4ddfb4a20f388a "pdflatex"
   (generated)
   "templateArxiv.aux"
   "templateArxiv.log"

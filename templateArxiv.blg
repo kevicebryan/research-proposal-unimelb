@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/Homebrew)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: templateArxiv.aux
+The style file: ieeetr.bst
+Database file #1: references.bib
+Warning--empty journal in sallai2024approach
+Warning--empty booktitle in Loughlin2026
+Warning--empty booktitle in Liding2026
+You've used 24 entries,
+            1876 wiz_defined-function locations,
+            634 strings with 9892 characters,
+and the built_in function-call counts, 7461 in all, are:
+= -- 691
+> -- 379
+< -- 0
++ -- 135
+- -- 111
+* -- 539
+:= -- 1049
+add.period$ -- 26
+call.type$ -- 24
+change.case$ -- 24
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 426
+empty$ -- 633
+format.name$ -- 111
+if$ -- 1824
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 24
+newline$ -- 77
+num.names$ -- 26
+pop$ -- 83
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 333
+stack$ -- 0
+substring$ -- 364
+swap$ -- 206
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 52
+width$ -- 26
+write$ -- 243
+(There were 3 warnings)
