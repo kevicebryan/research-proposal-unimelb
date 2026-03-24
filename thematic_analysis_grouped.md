@@ -1,6 +1,6 @@
 # Thematic Analysis: Grouped Notes by Theme
 
-_Source: Notes from Papers.pdf (pages 3–23), organised under the 10 themes from pages 1–2._
+_Source: Notes from Papers (1).pdf (pages 3–33), organised under the 10 themes from pages 1–2._
 
 ---
 
@@ -36,7 +36,7 @@ _(Sub-questions you could add: Which style best supports long-term retention? Do
 
 - **Sallai et al. (2024):** Uni needs to create an environment where AI enhances human intelligence; GenAI should be prevented if it removes opportunities to develop cognitive abilities/social skills. Use of AI is not lazy—educators should see it as an opportunity to boost student interest. Policy: delay adoption of AI in learning new skills by aligning foundation first, then AI becomes the assistant to automate.
 - **Wenjuan et al.:** Utilises active theory model—provides a comprehensive lens for examining learning processes (outcomes and facilitation). Why chatbots: lack of personalized learning, lack of realistic learning interaction, need for safe/controllable environment; AI can provide customized feedback and guide in-depth conversations.
-- **Integrating GenAI (2024):** Instead of banning AI, focus on decision making & training to enhance human capabilities and future readiness. Guidelines should be flexible to context (faculty/department goals); focus on honesty, ethical use, and citing AI.
+- **Chaco (2024):** Instead of banning AI, focus on decision making & training to enhance human capabilities and future readiness. Guidelines should be flexible to context (faculty/department goals); focus on honesty, ethical use, and citing AI.
 - **Mollick & Mollick (2023) – Five Strategies:** AI to provide examples/explanations/analogies, address misconceptions, low-stakes testing, identify knowledge gaps, design materials that reinforce learning. AI as tool so educators can evaluate AI hallucination; help “overwork instructors” by making complex pedagogy accessible.
 - **Qian (2025):** Focus towards using GenAI to foster higher-order skills—creativity, critical thinking, learning autonomy, prompt literacy. Future research must focus on exploratory, human-centric models ensuring AI serves as cognitive partner rather than cognitive replacement.
 - **Prather et al. (2025):** Trend from banning GenAI towards integrating with hybrid models that combine traditional pedagogy with AI-assisted exploration. Prompt engineering as required competency; GenAI lowering entry barrier for complex computing tasks; human oversight needed.
@@ -92,12 +92,14 @@ Students increasingly use AI as a shortcut to maximise productivity and meet dea
 - **Pham (2026):** Survey: 100% of sampled students support ChatGPT but are concerned about authenticity & reliability of content.
 - **Jivtode (2024):** Data might be wrong → false results; over-reliance can limit critical thinking and long-term development.
 - **Lo (2023) – CLEAR:** Reflective component—users should analyse response for accuracy and bias; humans in the loop responsible for final output.
+- **Ma et al. (2024):** Reliance errors are strongly linked to self-confidence miscalibration (confidence-correctness mismatch), not only misunderstanding AI. Calibration interventions (especially calibration-status feedback) improve both calibration and team accuracy.
+- **Li et al. (2025):** Users' confidence tends to align with AI-expressed confidence even without accuracy gains, and this can persist after assistance. Real-time correctness feedback reduces this alignment and improves reliance quality.
 
 **Conclusion (Theme 3):**  
-Fluent, authoritative AI output encourages over-trust and poor calibration between confidence and competence. Evidence shows that performance can rise while self-efficacy and critical verification do not, unless explicitly fostered. Addressing the illusion of truth requires foundation knowledge, reflective evaluation of AI output, and pedagogies (e.g. Socratic) that build internal critical thinking rather than dependence on external fact-checking.
+Fluent, authoritative AI output encourages over-trust and poor calibration between confidence and competence. New evidence shows reliance mistakes are frequently driven by confidence-correctness mismatch and confidence alignment to AI cues, even without real learning gains. Addressing the illusion of truth therefore requires reflective verification and explicit calibration support (e.g., feedback loops), not only better prompting.
 
 **Proposed paragraph for proposal:**  
-Because AI generates text with a highly authoritative and fluent tone, students often trust the output without verification, creating an “illusion of competence” where confidence in knowledge is artificially high compared to actual test scores. Evidence shows that performance can rise while self-efficacy and critical verification do not, unless explicitly fostered. Addressing this requires foundation knowledge, reflective evaluation of AI output, and pedagogies that build internal critical thinking.
+Because AI generates text with a highly authoritative and fluent tone, students often trust the output without verification, creating an “illusion of competence” where confidence can drift away from actual correctness. Recent evidence indicates that confidence may align to AI certainty signals even without accuracy gains, and that calibration feedback can improve both confidence alignment and decision quality. Addressing this requires reflective evaluation, explicit calibration support, and pedagogies that build internal critical thinking.
 
 ---
 
@@ -262,29 +264,30 @@ Reverse tutoring creates “generative friction” by having the student explain
 - **Gunawardana et al. (2025):** GenAI for ADHD-friendly LMS interfaces; reduces cognitive noise; minimalism, focus states, standardised palettes; more effective and empathetic design; revolutionary for adaptive personalised learning.
 - **Hilliger et al. (2026):** 85% agreed Socratic chatbot useful for self-regulated learning and easy to learn and use—positive usability and perceived usefulness.
 - **Jin et al. (2025):** Low-literacy learners find scaffolding bots _frustrating_ and revert to simple queries—psychological cost of high-friction design for some learners.
+- **Gurung et al. (2025):** Year-long Human-AI tutoring outperformed AI-only on growth, with strong time-on-task effects (human support amplified returns from AI use). However, engagement still declined over time, suggesting motivational/monitoring design remains necessary.
 
 **Conclusion (Theme 10):**  
-Psychological outcomes are not redundant with performance: AI can raise scores while self-efficacy stays lower than with a human teacher, and trust and satisfaction depend on feedback quality and interaction design. High-friction methods (Socratic, scaffolding) can improve learning but may increase frustration for low-literacy or time-pressed students. Your study can measure self-efficacy, trust, and perceived difficulty/fatigue alongside knowledge and confidence calibration to capture these trade-offs.
+Psychological outcomes are not redundant with performance: AI can raise scores while self-efficacy stays lower than with a human teacher, and trust, motivation, and sustained engagement depend on interaction quality. Human-in-the-loop designs can amplify learning returns from AI use, but they do not automatically solve disengagement over time. Your study can therefore measure self-efficacy, trust, and perceived difficulty/fatigue alongside knowledge and confidence calibration to capture these trade-offs.
 
 **Proposed paragraph for proposal:**  
-Beyond test scores, different AI interactions affect students’ self-efficacy, trust, and fatigue. Evidence suggests AI can raise performance while self-efficacy remains lower than with a human teacher; high-friction methods may improve learning but also increase frustration for some learners. This study will measure self-efficacy, trust, and perceived difficulty alongside knowledge and confidence calibration to capture these trade-offs across the three tutoring styles.
+Beyond test scores, different AI interactions affect students’ self-efficacy, trust, fatigue, and sustained engagement. Evidence suggests AI can raise performance while self-efficacy remains lower than with human support, and hybrid human-AI models may improve outcomes but still face engagement decay over time. This study will measure self-efficacy, trust, and perceived difficulty alongside knowledge and confidence calibration to capture these trade-offs across the three tutoring styles.
 
 ---
 
 ## Summary Table: Papers by Theme (Quick Reference)
 
-| Theme                        | Key papers                                                                                                |
-| ---------------------------- | --------------------------------------------------------------------------------------------------------- |
-| 1 – Pedagogical shift        | Sallai, Wenjuan, Integrating GenAI, Mollick, Qian, Prather, Ma, Pham, Alshumaimeri, Krause, Xu & Chen, Li |
-| 2 – Productivity paradox     | Sallai, Wang (postgrad), Hou, Lodge, Bastani, Klimova, Miller & Thompson, Qian                            |
-| 3 – Illusion of truth        | Sallai, Miller & Thompson, Wang (postgrad), Yang, Duelen, Pham, Jivtode, Lo                               |
-| 4 – Desirable friction       | Sallai, Bastani, Liding, Perez, Lodge, Lo, Hilliger, Ding, SocratiQ, Favero, Jin                          |
-| 5 – Frameworks               | Wenjuan, Mollick Seven Ways, ICAP, Fakour & Imani, Debets, Jin, Kim, Elkhodr & Gide                       |
-| 6 – AI literacy & foundation | Sallai, Kim, Jin, Wang (Catalyst), Ma, Perez, Lo, Shamsi                                                  |
-| 7 – Passive / crutch         | Bastani, Sallai, Liding, Soyoof, Hou, Lodge, Jin, Ding, Debets, Jivtode                                   |
-| 8 – Socratic tutor           | Tamang, Duelen, GELEX, Bastani, Hilliger, Ding, SocratiQ, Favero, Alshaik; counterpoint Liding            |
-| 9 – Reverse tutoring         | Your design, Okita & Schwartz, Mollick AI-Student, Kim, Agarwal, Lyu, Wong & Lim                          |
-| 10 – Psychological           | Yang, Soyoof, Klimova, Wang (Catalyst), Shamsi, Abbes, Gunawardana, Hilliger, Jin                         |
+| Theme                        | Key papers                                                                                                                               |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 – Pedagogical shift        | Sallai, Wenjuan, Integrating GenAI, Mollick, Qian, Prather, Ma, Pham, Alshumaimeri, Krause, Xu & Chen, Li                                |
+| 2 – Productivity paradox     | Sallai, Wang (postgrad), Hou, Lodge, Bastani, Klimova, Miller & Thompson, Qian                                                           |
+| 3 – Illusion of truth        | Sallai, Miller & Thompson, Wang (postgrad), Yang, Duelen, Pham, Jivtode, Lo, Ma (self-confidence calibration), Li (confidence alignment) |
+| 4 – Desirable friction       | Sallai, Bastani, Liding, Perez, Lodge, Lo, Hilliger, Ding, SocratiQ, Favero, Jin                                                         |
+| 5 – Frameworks               | Wenjuan, Mollick Seven Ways, ICAP, Fakour & Imani, Debets, Jin, Kim, Elkhodr & Gide                                                      |
+| 6 – AI literacy & foundation | Sallai, Kim, Jin, Wang (Catalyst), Ma, Perez, Lo, Shamsi                                                                                 |
+| 7 – Passive / crutch         | Bastani, Sallai, Liding, Soyoof, Hou, Lodge, Jin, Ding, Debets, Jivtode                                                                  |
+| 8 – Socratic tutor           | Tamang, Duelen, GELEX, Bastani, Hilliger, Ding, SocratiQ, Favero, Alshaik; counterpoint Liding                                           |
+| 9 – Reverse tutoring         | Your design, Okita & Schwartz, Mollick AI-Student, Kim, Agarwal, Lyu, Wong & Lim                                                         |
+| 10 – Psychological           | Yang, Soyoof, Klimova, Wang (Catalyst), Shamsi, Abbes, Gunawardana, Hilliger, Jin, Gurung (Human-AI tutoring)                            |
 
 ---
 

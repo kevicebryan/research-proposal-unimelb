@@ -42,9 +42,9 @@
   \large
   Kevin Bryan\\
   \texttt{kevinb@student.unimelb.edu.au}\\[0.8cm]
-  \textbf{Word count:} \texttt{1367 (current draft)}\\[0.25cm]
+  \textbf{Word count:} \texttt{2631 (current draft)}\\[0.25cm]
   {\footnotesize\textit{[DELETE BEFORE SUBMISSION] Section word-count notes (current / target for 6000 words):}}\\
-  {\footnotesize\textit{Introduction: 1153 / 1200 \quad Literature Review: 19 / 3000 \quad Research Question: 106 / 500}}\\
+  {\footnotesize\textit{Introduction: 1188 / 1200 \quad Literature Review: 1222 / 3000 \quad Research Question: 106 / 500}}\\
   {\footnotesize\textit{Research Plan: 10 / 1000 \quad Conclusion: 1 / 300}}\\[0.35cm]
   Department of Computing and Information Systems\\
   The University of Melbourne\\[0.4cm]
@@ -82,11 +82,14 @@ human intelligence rather than replace it \cite{sallai2024approach,qian2025pedag
 However, the adoption of GenAI in higher education comes with a significant set of challenges.
 As previously mentioned, GenAI can be useful in taking over repetitive tasks \cite{xia2025systematic}, 
 but this also leads to "cognitive offloading" 
-where students outsource critical cognitive tasks to the AI \cite{xia2025systematic}.
-It becomes even more concerning as AI can also create a "productivity paradox," 
-where students experience increased productivity but lack depth in their critical analysis \cite{Wang2024}.
-For instance,
-due to convenience and speed that AI summaries provide, 
+where students outsource critical cognitive tasks to the AI \cite{xia2025systematic}. 
+The pattern of reliance starts from using AI as an information verification tool 
+to slowly becoming a content delegation tool, causing students to blindly rely on 
+AI to generate the final output \cite{Hou2025}.
+It becomes even more concerning as AI creates a "productivity paradox", 
+where despite students experiencing increased productivity, 
+they lack depth in critical analysis \cite{Wang2024}.
+For instance, due to convenience and speed that AI summaries provide, 
 students tend to prioritize these summaries over verifying the underlying sources \cite{Loughlin2026}.
 Despite the faster drafting process, the final result ended up being lower quality, 
 with generic essays and a lack of critical analysis \cite{sallai2024approach,Wang2024}. 
@@ -102,10 +105,12 @@ negatively impacting students' interpersonal skills and emotional intelligence.
 Thus, increasing the risk of social anxiety and isolation \cite{KlimovaPikhart2025}.
 
 % Illusion of truth and confidence miscalibration
-As previously mentioned, over-reliance on AI is a significant concern that must be addressed.
-AI tends to generate text with a convincing tone, giving an illusion that the output is always true, 
-causing users to overlook hallucinations \cite{sallai2024approach, Loughlin2026}.
-To combat this, students are required to possess foundational knowledge before adopting the tool.
+As previously mentioned, over-reliance on AI is a significant concern 
+that must be addressed. AI tends to generate text with a 
+convincing tone, giving an illusion that the output is always true, 
+causing users to overlook hallucinations and in the end hallucinating themselves \cite{sallai2024approach, Loughlin2026}.
+To combat this, students are required to possess foundational 
+knowledge before adopting the tool \cite{sallai2024approach, Jin2025}.
 This ensures they are able to critically validate the AI's information, 
 as the human in the loop is responsible for the final output produced \cite{sallai2024approach,Lo2023}. 
 Therefore, students must be taught to verify AI outputs \cite{Mollick2023}. 
@@ -164,8 +169,8 @@ Studies show that reverse tutoring creates the protégé effect
 where students learn harder when they know they must teach \cite{Okita2013,Wong2026}.
 There are two mechanisms that align with reverse tutoring \cite{Fiorella2023}:
 \begin{enumerate}
-    \item \textbf{Generative processing:} Students are encouraged to inherently organize and integrate their knowledge.
-    \item \textbf{Metacognitive monitoring:} Students are able to detect explanation gaps, which trigger self-correction.
+    \item Generative processing: Students are encouraged to inherently organize and integrate their knowledge.
+    \item Metacognitive monitoring: Students are able to detect explanation gaps, which trigger self-correction.
 \end{enumerate}
 Moreover, this socio-psychological interaction shifts the learners 
 mindset to dig deeper into the topic, creating a more flexible 
@@ -174,13 +179,13 @@ mastery of the topic \cite{Fiorella2023,Lyu2025}.
 % rq & goal of the sutdy
 Hence, in addition to the Socratic tutoring style, 
 this study introduces the reverse tutoring technique. 
-This study compares the three tutoring styles within a single comparative framework, 
+This study compares the three tutoring styles (direct-answer, Socratic, and reverse tutoring) 
+within a single comparative framework, 
 while assessing both cognitive and psychological outcomes. 
 In particular, reverse tutoring, which is grounded in learning-by-teaching theory, 
 despite showing clear effectiveness in improving learning outcomes, 
 remains under-explored in the GenAI context.
-Therefore, this study aims to fill that gap by asking how different tutoring styles 
-(direct-answer, Socratic, and reverse tutoring) compare in their 
+Therefore, this study aims to fill that gap by asking how different tutoring styles compare in their 
 effects on learning performance, knowledge acquisition, self-efficacy, 
 and confidence calibration. This combined evaluation is important as 
 prior work shows that students can appear more productive 
@@ -189,15 +194,225 @@ Accordingly, this study aims to determine which tutoring style best supports dur
 learning rather than short-term productivity.
 
 \section{Literature Review}
-% Target: 5--6 pages. Draw on Themes 5--10. Structure like the example proposal (subsections that build the argument).
+
 \subsection{Generative AI in Education}
-% Frameworks, pedagogical shift, AI literacy (Themes 1, 5, 6).
+It cannot be denied that AI has revolutionised the way 
+the education industry operates \cite{ma2025preparing}.
+In fact, AI has been implemented within the education industry for decades \cite{Jabbour2025}.
+Introduced by Jaime R. Carbonell in 1970, the SCHOLAR tutor system was the first 
+intelligent tutoring system (ITS) \cite{Mousavinasab2021}. By utilizing a semantic network of 
+concepts and facts, the system was able to evaluate students' knowledge of geography, 
+creating a two-way interaction with the student \cite{Mousavinasab2021}. 
+Over the past decade, specialized AI tools such as Wolfram Alpha and Geogebra have enhanced STEM learning by increasing interactivity, 
+while tools like Grammarly have assisted students in writing \cite{Jabbour2025}.
+Although these tools were effective, they lack the conversational 
+capabilities that current GenAI models possess. 
+Driven by natural language processing (NLP), 
+these large language models (LLMs) are able 
+to hold sustained dialogue, and have since 
+changed the way humans interact with information \cite{Jabbour2025,sallai2024approach}.
+
+The presence of GenAI has not only changed the way students and teachers interact, 
+but also the entire curriculum at all levels of education \cite{Mollick2023,prather2024beyond, Alshumaimeri2024}.
+From initially banning the use of AI due to concerns of cheating and plagiarism, 
+institutions are now embracing and integrating AI into their pedagogy \cite{prather2024beyond, ma2025preparing}.
+This shift is supported by GenAI's ability to deliver an adaptive and personalized 
+learning experience for students \cite{wenjuan2024who}. 
+For a long time, education has been challenged in providing 
+the unique needs of each individual student \cite{Jabbour2025}.
+Evidence shows that students experience an increase in their learning 
+outcomes when being tutored in a one-on-one setting \cite{Gurung2025}. 
+However, the cost of providing human one-on-one tutoring 
+is expensive in both financial and human resources, 
+especially as teachers are also burdened with 
+administrative responsibilities \cite{Gurung2025,Mollick2023}. 
+This is where GenAI comes into play, by providing a 
+scalable and cost-effective one-on-one tutor compared 
+to traditional human tutors that cost $3,500--$4,300 per student per year \cite{Gurung2025}. 
+Hence, lowering the entry barrier for complex subjects by 
+providing examples and analogies that cater to the 
+user's understanding and interest \cite{prather2024beyond,Leong2024}.
+For example, in the context of vocabulary learning, the AI's output 
+can be personalized based on the user's hobbies 
+such as cooking, sci-fi, or sports; 
+turning a dry learning experience into a more engaging and interactive one \cite{Leong2024,sallai2024approach}. 
+Additionally, AI aids overworked instructors by making complex pedagogy accessible \cite{Mollick2023}.
+Instructors are able to leverage AI to provide examples and analogies to address misconceptions 
+and design materials that reinforce learning \cite{Mollick2023}. 
+
+
+Despite the immense benefits that GenAI provides, when used without proper guidance, 
+it can cause harm to long-term learning outcomes \cite{Bastani2025}. 
+Therefore, it is critical for educators to standardize GenAI's use in education. 
+In order to correctly adopt GenAI in their pedagogy, 
+educators are encouraged to follow 
+UNESCO's AI Competency Framework which acts as a guide for AI use and misuse \cite{Pham2026}. 
+The framework highlights several key dimensions essential to effective 
+AI implementation: students must develop foundational knowledge, 
+use the tool ethically, and ensure that a human remains responsible 
+for overseeing and validating the final output \cite{Pham2026,Lo2023}. 
+Thus, institutions must create an environment where AI 
+enhances human intelligence rather than replace it, 
+fostering higher-order thinking and creativity \cite{qian2025pedagogical, sallai2024approach}.
+Moreover, GenAI should be prevented if it removes the opportunity 
+for students to develop cognitive abilities or social skills \cite{sallai2024approach}.
+
+However, in practice, GenAI is still being used incorrectly, 
+leading to short-term productivity but long-term learning loss, 
+known as the "productivity paradox" \cite{Wang2024,Bastani2025}. 
+This phenomenon occurs because students tend to offload 
+cognitive tasks to the AI, such as planning, organising, and evaluating \cite{xia2025systematic}. 
+Evidence shows that most students prioritize the convenience 
+and speed of AI summaries over verifying the underlying sources \cite{Loughlin2026}. 
+Hence, students who over-rely on AI are found to produce generic and lower-quality work \cite{sallai2024approach}. 
+Consequently, the excessive use of ChatGPT reduces their academic performance and memory \cite{Abbas2024}. 
+This shows that GenAI cannot yet be supportive of self-regulated learning unless it 
+is pedagogically engineered to provide hints and scaffold rather than direct answers \cite{xia2025systematic}.
+To mitigate the misuse of GenAI, educators are encouraged to provide assessments that 
+require students to document their process in reaching their final output (e.g. oral examination or AI-output documentation)\cite{Alshumaimeri2024, sallai2024approach}. 
+Furthermore, institutions are encouraged towards using GenAI to foster higher-order 
+skills and creativity, combining traditional pedagogy with AI-assisted exploration \cite{qian2025pedagogical,prather2024beyond}. 
+Thus, it is important to design a human-centric model 
+where GenAI acts as a cognitive partner rather than a replacement \cite{qian2025pedagogical}.
+
+
+\subsubsection{Socratic AI versus Direct AI}
+
+As previously mentioned, without proper guardrails, 
+GenAI outputs direct answers, imposing the risk of cognitive offloading \cite{xia2025systematic, qian2025pedagogical}. 
+To prevent this, Socratic chatbots are designed by using prompt engineering and guardrails 
+to encourage cognitive engagement 
+by offering hints and guidance rather than direct answers \cite{Yazici2024,Hilliger2025}.
+As the name suggests, the design of Socratic AI chatbots originated from the Socratic teaching method \cite{Jabbour2025}. 
+The method itself was originally designed to doubt all assumptions using questions and dialogues, 
+forcing students to construct their own knowledge \cite{Wazan2026}. 
+This technique proves to be effective in improving students' learning outcomes, 
+improving their learning gain by 59\% in the context of coding comprehension \cite{Tamang2021}. 
+In addition, a comparative study comparing Socratic AI versus direct AI shows that 
+Socratic AI is able to improve learning gain by 127\% with no learning loss when the AI is removed \cite{Bastani2025}.
+In comparison, the default model shows a learning loss of 17\% when the AI is removed \cite{Bastani2025}.
+The open-ended questions and reflective prompts are proven to be more useful in 
+promoting self-regulated learning as agreed by 85\% of educators \cite{Hilliger2026}.
+This is due to the back-and-forth interaction that encourages students to 
+verbalise their reasoning and correct any misconceptions in comparison 
+to the default model that gives direct solutions that deprive students of cognitive effort \cite{Ding2024}.
+Thus, it can be acknowledged that the design of the AI interaction is more important 
+than the model capabilities in improving learning outcomes \cite{Bastani2025}. 
+
+Additionally, the convincing tone of default AI models can lead to 
+users believing every response is true,
+despite the inaccuracies caused by hallucinations \cite{sallai2024approach,Jivtode2024}. 
+This "illusion of truth" can be harmful as it leads to users overlooking 
+these hallucinations, causing errors in their final output \cite{sallai2024approach,Loughlin2026}. 
+Subsequently, users' confidence tends to align with the AI-expressed confidence, 
+further imposing the danger of this illusion \cite{Li2025}. 
+Moreover, the authoritative tone of the AI leads to students being over-reliant on the AI, 
+which is proven to limit creativity and critical thinking as well as 
+social and emotional development \cite{KimetAl2026, Li2025}. 
+Furthermore, being over-reliant on the AI leads to a lack 
+of face-to-face interaction which negatively impacts students' interpersonal skills that 
+leads to a higher risk of social anxiety and isolation \cite{KlimovaPikhart2025}.
+
+To mitigate this, Lo et al., proposed a CLEAR framework which stands for 
+Critical, Reflective, Adaptive, Explainable, and Responsible \cite{Lo2023}. 
+This framework encourages students to critically analyse the AI's output, 
+reflect on their own learning, adapt to the feedback, 
+explain the reasoning behind their answer, and be responsible for the final output \cite{Lo2023}.
+However, to be able to apply this framework, the student must possess foundational 
+knowledge of the topic as well as AI literacy to 
+critically evaluate the AI's output \cite{Lo2023}. 
+Simply flagging whether the content is fake is not effective as 
+students must develop internal critical thinking to succeed \cite{Duelen2024}. 
+A study comparing traditional study methods, 
+studying with direct AI, and studying with Socratic AI approaches,
+found that users who study with direct AI showed a learning loss of 17\% when the AI is removed, 
+while users who study with the traditional method and Socratic AI showed no learning loss \cite{Bastani2025}.
+This further proves that Socratic AI chatbots go beyond fact-checking, 
+as it allows students to recognize cognitive biases and build emotional triggers, 
+encouraging them to become more cognitively active \cite{Duelen2024}.
+
+% show the problem of socratic that people with low literacy find it frustrating
+% proving that socratic AI is not universally superior
+% mollick shows that there are 7 ways human can itneract with AI.. list it out here..
+% additionally Chi & Wylie shwos the ICAP framework 
+%   Contradiction-ready line: "While scaffolding is designed to deepen reasoning, low-literacy learners may experience it as frictional overload and revert to transactional prompting."
+% P5 (170w): Mini-synthesis + transition to tutoring styles.
+%   Example transition: "If learning gains depend less on model capability and more on interaction design, the key question becomes which tutoring style produces durable learning rather than short-term throughput."
+%
+
 \subsection{Learning strategies: direct, Socratic, and learning-by-teaching}
-% Passive baseline / crutch (Theme 7), Socratic tutor (Theme 8), reverse tutoring / protégé effect (Theme 9).
+% P6 (170w): Introduce 3-style comparison and evaluation criteria (learning, transfer, calibration, effort).
+%   Use dimensions: immediate performance, post-support transfer, calibration error, perceived effort/frustration.
+%   Example sentence: "This comparison treats tutoring style as the independent pedagogical mechanism and evaluates both cognitive and metacognitive outcomes."
+% P7 (170w): Direct-answer baseline and crutch effect (short-term gains, long-term fragility).
+%   Use: Bastani 2025 (48% practice gain, 17% worse after removal), Hou 2025 content delegation, Lodge 2026.
+%   Example contrast: "Direct-answer systems often maximize completion speed yet externalize core reasoning, producing apparent competence that decays when support is withdrawn."
+% P8 (170w): Socratic approach: constructive friction, evidence for deeper reasoning.
+%   Use: Bastani 2025 GPT Tutor, Ding 2024, Hilliger 2026, Duelen 2024.
+%   Example sentence: "By withholding final answers and requiring explanation, Socratic systems redirect effort toward inference and misconception repair."
+% P9 (160w): Socratic counter-evidence (domain/task sensitivity; efficiency trade-offs).
+%   Use contradiction: Liding 2026 (worse efficiency/error ratio in coding) versus positive studies in conceptual/math contexts.
+%   Contradiction-ready line: "The divergence suggests that Socratic prompting is not universally superior; its value appears contingent on domain structure, task urgency, and hint granularity."
+% P10 (170w): Reverse tutoring: protege effect and recursive feedback rationale.
+%   Use: Okita & Schwartz 2013 + Mollick AI-student role.
+%   Example sentence: "Reverse tutoring reframes the learner as explainer, converting answer consumption into knowledge production."
+% P11 (170w): Reverse tutoring mechanisms (generative processing + metacognitive monitoring).
+%   Use: Fiorella/Logan notes (generative processing + monitoring), Wong & Lim 2026 (role/agency).
+%   Example sentence: "Preparing explanations forces organization of knowledge, while failed explanations surface gaps that trigger self-correction."
+% P12 (160w): Reverse tutoring design sensitivity (agent persona/interaction design).
+%   Use contradiction: Lyu 2025 openness persona > extraversion for deeper engagement.
+%   Contradiction-ready line: "More interaction is not always better; socially expressive agents can increase turns while reducing conceptual depth."
+% P13 (170w): Cross-style synthesis: when each style likely works best + what remains unknown.
+%   Example synthesis frame: "Direct-answer for speed, Socratic for guided reasoning, reverse tutoring for generative mastery; unresolved is which style best calibrates confidence under realistic classroom constraints."
+%
 \subsection{Confidence calibration and psychological impacts}
-% Illusion of competence, self-efficacy, trust (Themes 3, 10).
+% P14 (170w): Define calibration vs confidence vs performance; why they must be separated analytically.
+%   Example definitional line: "Confidence is subjective certainty, calibration is confidence-accuracy alignment, and performance is objective correctness; conflating them hides reliance risk."
+% P15 (170w): Illusion-of-truth and confidence alignment findings (Ma 2024; Li 2025).
+%   Use: Ma 2024 C-C mismatch and ECE, Li 2025 confidence alignment persistence.
+%   Example contrast: "Users may feel more certain after AI interaction without becoming more accurate, indicating social alignment rather than learning."
+% P16 (170w): Interventions: calibration feedback, reflective prompts, human check-ins.
+%   Use: Ma 2024 (calibration status feedback), Li 2025 (real-time correctness feedback), Lo CLEAR reflective step.
+%   Example sentence: "Feedback that ties confidence to correctness appears more effective than exposing AI confidence alone."
+% P17 (170w): Psychological outcomes (self-efficacy, trust, frustration/technostress) across styles.
+%   Use contradiction: Yang 2025 (AI higher scores, teacher higher self-efficacy), Soyoof 2026 (trust/quality favors human feedback), Jin 2025 (frustration in low literacy).
+%   Contradiction-ready line: "An interaction can improve scores while weakening trust or self-efficacy, so psychological outcomes cannot be treated as secondary."
+% P18 (160w): Human-in-the-loop evidence (Gurung 2025): gains + engagement decay trade-off.
+%   Use: Gurung 2025 (0.36 grade-level lead; stronger time-on-task multiplier; engagement decline).
+%   Example sentence: "Hybrid support amplifies returns to AI use, but does not eliminate disengagement drift over time."
+% P19 (170w): Integrated measurement rationale for your experiment.
+%   Example measurement line: "The study therefore combines knowledge tests, item-level confidence ratings, calibration error, self-efficacy, trust, and perceived difficulty to capture full intervention effects."
+%
 \subsection{Research gap}
-% Few studies compare all three styles; little GenAI work on reverse tutoring; need for calibration outcomes.
+% P20 (170w): Research gap paragraph 1: comparison/context/outcome gaps.
+%   Use: most studies compare one or two styles; reverse tutoring under-tested in modern GenAI; outcomes often performance-only.
+%   Example sentence: "Current evidence is fragmented across tutoring styles and endpoints, limiting causal claims about which design best balances mastery and calibration."
+% P21 (170w): Research gap paragraph 2: intervention/durability/engagement gaps.
+%   Use: limited head-to-head evidence on feedback/check-ins by style; long-term engagement and post-support retention under-measured.
+%   Example sentence: "What remains unclear is not only which style works, but which support layer sustains learning quality once novelty and assistance decline."
+% P22 (120-150w): Contribution statement + bridge to RQ/Hypothesis.
+%   Example bridge: "To address these gaps, this study implements a theory-anchored three-way comparison that jointly evaluates cognition, calibration, and psychological outcomes under matched task conditions."
+%
+% Quality checks before finalizing:
+% - At least 1 explicit "A vs B" contrast per paragraph from P7 onward.
+%   Example: "Unlike direct-answer systems that improve immediate completion but weaken transfer,
+%   Socratic tutoring slows performance in-session yet preserves post-support retention."
+% - At least 1 sentence per subsection explaining conflicting findings and why they may differ.
+%   Example: "The mixed Socratic results likely reflect task differences: conceptual reasoning tasks
+%   reward open-ended prompting, whereas time-pressured procedural coding tasks may benefit from targeted hints."
+% - End each subsection with a design implication sentence for your study.
+%   Example: "Accordingly, this study compares all three tutoring styles under matched task difficulty
+%   and standardized prompting to isolate interaction-style effects."
+% - Avoid paper-by-paper listing; synthesize by claim/mechanism/outcome.
+%   Example (avoid): "Study A found X. Study B found Y. Study C found Z."
+%   Example (use): "Across domains, direct-answer designs maximize short-term throughput, while
+%   constructive/generative designs shift effort toward explanation, which supports transfer when calibration is monitored."
+% - Calibration check: include at least one sentence distinguishing confidence level from confidence accuracy.
+%   Example: "Higher confidence alone is not a gain unless confidence tracks correctness; otherwise, it predicts inappropriate reliance."
+% - Measurement check: include at least one sentence that links evidence directly to your dependent variables.
+%   Example: "Because prior studies report score gains alongside reduced self-efficacy, this study jointly models
+%   knowledge scores, self-efficacy, and calibration error rather than using performance as a sole endpoint."
+% ======================================================================
 
 \section{Research Question}
 % Main RQ and hypothesis (from thematic\_analysis\_grouped.md).
