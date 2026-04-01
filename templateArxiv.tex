@@ -6,6 +6,7 @@
 \usepackage{hyperref}
 \usepackage{url}
 \usepackage{booktabs}
+\usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{nicefrac}
 \usepackage{microtype}
@@ -184,19 +185,26 @@ within a single comparative framework,
 while assessing both cognitive and psychological outcomes. 
 In particular, reverse tutoring, which is grounded in learning-by-teaching theory, 
 despite showing clear effectiveness in improving learning outcomes, 
-remains under-explored in the GenAI context.
+remains underexplored in the GenAI context.
 Therefore, this study aims to fill that gap by asking how different tutoring styles compare in their 
 effects on learning performance, knowledge acquisition, self-efficacy, 
-and confidence calibration. This combined evaluation is important as 
+and confidence calibration. This combined evaluation is important, as 
 prior work shows that students can appear more productive 
-with AI but could lose their learning once the tool is removed \cite{Wang2024,Bastani2025}.
+with AI, but could lose their learning once the tool is removed \cite{Wang2024,Bastani2025}.
 Accordingly, this study aims to determine which tutoring style best supports durable 
 learning rather than short-term productivity.
+
+In Section \ref{sec:literature-review}, we will review relevant literature on the current state of 
+GenAI in education, the advancement of different tutoring styles for learning with GenAI, along with the 
+psychological benefits of learning-by-teaching. The research question will be presented in 
+Section \ref{sec:research-question}, followed by the methodology and timeline for this study to answer the 
+corresponding question in Section \ref{sec:methodology}. Finally, in Section \ref{sec:conclusion}, the conclusion 
+and potential contributions will be presented.
 
 \section{Literature Review}
 
 \subsection{Generative AI in Education}
-It cannot be denied that AI has revolutionised the way 
+It cannot be denied that AI has revolutionized the way 
 the education industry operates \cite{ma2025preparing}.
 In fact, AI has been implemented within the education industry for decades \cite{Jabbour2025}.
 Introduced by Jaime R. Carbonell in 1970, the SCHOLAR tutor system was the first 
@@ -209,138 +217,137 @@ Although these tools were effective, they lack the conversational
 capabilities that current GenAI models possess. 
 Driven by natural language processing (NLP), 
 these large language models (LLMs) are able 
-to hold sustained dialogue, and have since 
+to hold sustained dialogue and have since 
 changed the way humans interact with information \cite{Jabbour2025,sallai2024approach}.
 
 The presence of GenAI has not only changed the way students and teachers interact, 
 but also the entire curriculum at all levels of education \cite{Mollick2023,prather2024beyond, Alshumaimeri2024}.
-From initially banning the use of AI due to concerns of cheating and plagiarism, 
+From initially banning the use of AI due to concerns about cheating and plagiarism, 
 institutions are now embracing and integrating AI into their pedagogy \cite{prather2024beyond, ma2025preparing}.
 This shift is supported by GenAI's ability to deliver an adaptive and personalized 
 learning experience for students \cite{wenjuan2024who}. 
 For a long time, education has been challenged in providing 
-the unique needs of each individual student \cite{Jabbour2025}.
+for the unique needs of each individual student \cite{Jabbour2025}.
 Evidence shows that students experience an increase in their learning 
 outcomes when being tutored in a one-on-one setting \cite{Gurung2025}. 
 However, the cost of providing human one-on-one tutoring 
-is expensive in both financial and human resources, 
+is high in both financial and human resources, 
 especially as teachers are also burdened with 
 administrative responsibilities \cite{Gurung2025,Mollick2023}. 
 This is where GenAI comes into play by providing a 
 scalable and cost-effective one-on-one tutor compared 
-to traditional human tutors that cost $3,500--$4,300 per student per year \cite{Gurung2025}. 
-Hence, lowering the entry barrier for complex subjects by 
+to traditional human tutors, which cost \$3,500--\$4,300 per student per year \cite{Gurung2025}. 
+Hence, it lowers the entry barrier for complex subjects by 
 providing examples and analogies that cater to the 
-user's understanding and interest \cite{prather2024beyond,Leong2024}.
+user's understanding and interests \cite{prather2024beyond,Leong2024}.
 For example, in the context of vocabulary learning, the AI's output 
-can be personalized based on the user's hobbies 
-such as cooking, sci-fi, or sports; 
+can be personalized based on the user's hobbies, 
+such as cooking, sci-fi, or sports, 
 turning a dry learning experience into a more engaging and interactive one \cite{Leong2024,sallai2024approach}. 
 Additionally, AI aids overworked instructors by making complex pedagogy accessible \cite{Mollick2023}.
 Instructors are able to leverage AI to provide examples and analogies to address misconceptions 
 and design materials that reinforce learning \cite{Mollick2023}. 
 
 
-Despite the immense benefits that GenAI provides, when used without proper guidance 
-it can cause harm to long-term learning outcomes \cite{Bastani2025}. 
-Therefore, it is critical for educators to standardize GenAI's use in education. 
-In order to correctly adopt GenAI in their pedagogy, 
-educators are encouraged to follow 
-UNESCO's AI Competency Framework, which acts as a guide for AI use and misuse \cite{Pham2026}. 
-The framework highlights several key dimensions essential to effective 
-AI implementation: students must develop foundational knowledge, 
-use the tool ethically, and ensure that a human remains responsible 
-for overseeing and validating the final output \cite{Pham2026,Lo2023}. 
-Thus, institutions must create an environment where AI 
-enhances human intelligence rather than replacing it, 
+Despite the immense benefits that GenAI provides, when used without proper guidance,
+it can cause harm to long-term learning outcomes \cite{Bastani2025}.
+Therefore, it is critical for educators to standardize GenAI's use in education.
+In order to correctly adopt GenAI in their pedagogy,
+educators are encouraged to follow
+UNESCO's AI Competency Framework, which acts as a guide for AI use and misuse \cite{Pham2026}.
+The framework highlights several key dimensions essential to effective
+AI implementation: students must develop foundational knowledge
+for overseeing and validating the final output \cite{Pham2026,Lo2023}.
+Thus, institutions must create an environment where AI
+enhances human intelligence rather than replaces it,
 fostering higher-order thinking and creativity \cite{qian2025pedagogical, sallai2024approach}.
-Moreover, GenAI should be prevented if it removes the opportunity 
+Moreover, GenAI should be prevented if it removes the opportunity
 for students to develop cognitive abilities or social skills \cite{sallai2024approach}.
 
-However, in practice, GenAI is still being used incorrectly, 
-leading to short-term productivity but long-term learning loss, 
-known as the "productivity paradox" \cite{Wang2024,Bastani2025}. 
-This phenomenon occurs because students tend to offload 
-cognitive tasks to the AI, such as planning, organising, and evaluating \cite{xia2025systematic}. 
-Evidence shows that most students prioritize the convenience 
-and speed of AI summaries over verifying the underlying sources \cite{Loughlin2026}. 
-Hence, students who over-rely on AI are found to produce generic and lower-quality work \cite{sallai2024approach}. 
-Consequently, the excessive use of ChatGPT reduces their academic performance and memory \cite{Abbas2024}. 
-This shows that GenAI cannot yet be supportive of self-regulated learning unless it 
-is pedagogically engineered to provide hints and scaffold rather than direct answers \cite{xia2025systematic}.
-To mitigate the misuse of GenAI, educators are encouraged to provide assessments that 
-require students to document their process in reaching their final output (e.g. oral examination or AI-output documentation)\cite{Alshumaimeri2024, sallai2024approach}. 
-Furthermore, institutions are encouraged to use GenAI to foster higher-order 
-skills and creativity, combining traditional pedagogy with AI-assisted exploration \cite{qian2025pedagogical,prather2024beyond}. 
-Thus, it is important to design a human-centric model 
+However, in practice, GenAI is still being used incorrectly,
+leading to short-term productivity but long-term learning loss,
+known as the "productivity paradox" \cite{Wang2024,Bastani2025}.
+This phenomenon occurs because students tend to offload
+cognitive tasks to the AI, such as planning, organizing, and evaluating \cite{xia2025systematic}.
+Evidence shows that most students prioritize the convenience
+and speed of AI summaries over verifying the underlying sources \cite{Loughlin2026}.
+Hence, students who over-rely on AI are found to produce generic and lower-quality work \cite{sallai2024approach}.
+Consequently, the excessive use of ChatGPT reduces their academic performance and memory \cite{Abbas2024}.
+This shows that GenAI cannot yet be supportive of self-regulated learning unless it
+is pedagogically engineered to provide hints and scaffolds rather than direct answers \cite{xia2025systematic}.
+To mitigate the misuse of GenAI, educators are encouraged to provide assessments that
+require students to document their process in reaching their final output (e.g., oral examination or AI-output documentation) \cite{Alshumaimeri2024, sallai2024approach}.
+Furthermore, institutions are encouraged to use GenAI to foster higher-order
+skills and creativity, combining traditional pedagogy with AI-assisted exploration \cite{qian2025pedagogical,prather2024beyond}.
+Thus, it is important to design a human-centric model
 where GenAI acts as a cognitive partner rather than a replacement \cite{qian2025pedagogical}.
 
 
 \subsubsection{Socratic AI versus Direct AI}
 
 As previously mentioned, without proper guardrails, 
-GenAI outputs direct answers, imposing the risk of cognitive offloading \cite{xia2025systematic, qian2025pedagogical}. 
-To prevent this, Socratic chatbots are designed by using prompt engineering and guardrails 
+GenAI outputs direct answers, posing the risk of cognitive offloading \cite{xia2025systematic, qian2025pedagogical}. 
+To prevent this, Socratic chatbots are designed using prompt engineering and guardrails 
 to encourage cognitive engagement 
 by offering hints and guidance rather than direct answers \cite{Yazici2024,Hilliger2025}.
 As the name suggests, the design of Socratic AI chatbots originated from the Socratic teaching method \cite{Jabbour2025}. 
 The method itself was originally designed to doubt all assumptions using questions and dialogues, 
 forcing students to construct their own knowledge \cite{Wazan2026}. 
-This technique proves to be effective in improving students' learning outcomes, 
-improving their learning gain by 59\% in the context of coding comprehension \cite{Tamang2021}. 
-In addition, a comparative study comparing Socratic AI versus direct AI shows that 
-Socratic AI is able to improve learning gain by 127\% with no learning loss when the AI is removed \cite{Bastani2025}.
+This technique has proven to be effective in improving students' learning outcomes, 
+increasing their learning gains by 59\% in the context of coding comprehension \cite{Tamang2021}. 
+In addition, a comparative study of Socratic AI versus direct AI shows that 
+Socratic AI is able to improve learning gains by 127\% with no learning loss when the AI is removed \cite{Bastani2025}.
 In comparison, the default model shows a learning loss of 17\% when the AI is removed \cite{Bastani2025}.
-The open-ended questions and reflective prompts are proven to be more useful in 
-promoting self-regulated learning as agreed by 85\% of educators \cite{Hilliger2026}.
+Open-ended questions and reflective prompts have been proven to be more useful in 
+promoting self-regulated learning, as agreed by 85\% of educators \cite{Hilliger2026}.
 This is due to the back-and-forth interaction that encourages students to 
-verbalise their reasoning and correct any misconceptions in comparison 
-to the default model that gives direct solutions that deprive students of cognitive effort \cite{Ding2024}.
+verbalize their reasoning and correct any misconceptions, in comparison 
+to the default model that gives direct solutions and deprives students of cognitive effort \cite{Ding2024}.
 Thus, it can be acknowledged that the design of the AI interaction is more important 
-than the model capabilities in improving learning outcomes \cite{Bastani2025}. 
+than the model's capabilities in improving learning outcomes \cite{Bastani2025}. 
 
 Additionally, the convincing tone of default AI models can lead to 
-users believing every response is true, 
+users believing that every response is true, 
 despite the inaccuracies caused by hallucinations \cite{sallai2024approach,Jivtode2024}. 
-This "illusion of truth" can be harmful, as it leads to users overlooking 
+This "illusion of truth" can be harmful, as it leads users to overlook 
 these hallucinations, causing errors in their final output \cite{sallai2024approach,Loughlin2026}. 
 Subsequently, users' confidence tends to align with the AI-expressed confidence, 
 further imposing the danger of this illusion \cite{Li2025}. 
-Moreover, the authoritative tone of the AI leads to students being over-reliant on the AI, 
-which is proven to limit creativity and critical thinking as well as 
+Moreover, the authoritative tone of the AI leads students to become over-reliant on the AI, 
+which has been proven to limit creativity and critical thinking, as well as 
 social and emotional development \cite{KimetAl2026, Li2025}. 
 Furthermore, being over-reliant on the AI leads to a lack 
-of face-to-face interaction which negatively impacts students' interpersonal skills that 
+of face-to-face interaction, which negatively impacts students' interpersonal skills and 
 leads to a higher risk of social anxiety and isolation \cite{KlimovaPikhart2025}.
 
-To mitigate this, Lo et al. proposed a CLEAR framework, which stands for 
+To mitigate this, Lo et al. proposed the CLEAR framework, which stands for 
 Critical, Reflective, Adaptive, Explainable, and Responsible \cite{Lo2023}. 
-This framework encourages students to critically analyse the AI's output, 
-reflect on their own learning, adapt to the feedback, 
-explain the reasoning behind their answer, and be responsible for the final output \cite{Lo2023}.
-However, to be able to apply this framework, the student must possess foundational 
+This framework encourages students to critically analyze the AI's output, 
+reflect on their own learning, adapt to feedback, 
+explain the reasoning behind their answers, and be responsible for the final output \cite{Lo2023}.
+However, to be able to apply this framework, students must possess foundational 
 knowledge of the topic as well as AI literacy to 
 critically evaluate the AI's output \cite{Lo2023}. 
-Simply flagging whether the content is fake is not effective as 
+Simply flagging whether the content is fake is not effective, as 
 students must develop internal critical thinking to succeed \cite{Duelen2024}. 
 A study comparing traditional study methods, 
-studying with direct AI, and studying with Socratic AI approaches,
-found that users who study with direct AI showed a learning loss of 17\% when the AI is removed, 
-while users who study with the traditional method and Socratic AI showed no learning loss \cite{Bastani2025}.
+studying with direct AI, and studying with Socratic AI approaches 
+found that users who studied with direct AI showed a learning loss of 17\% when the AI was removed, 
+while users who studied with the traditional method and Socratic AI showed no learning loss \cite{Bastani2025}.
 This further proves that Socratic AI chatbots go beyond fact-checking, 
-as it allows students to recognize cognitive biases and build emotional triggers, 
+as they allow students to recognize cognitive biases and build emotional triggers, 
 encouraging them to become more cognitively active \cite{Duelen2024}.
 
 
-Despite the effectiveness in Socratic AI chatbots, it is not a one-size-fits-all solution. 
+Despite the effectiveness of Socratic AI chatbots, they are not a one-size-fits-all solution. 
 Learners with low AI literacy tend to find these scaffolding bots frustrating \cite{Jin2025}. 
 When compared to direct AI in the context of coding, students who were assigned the Socratic AI 
-actually performed worse with lower efficiency and higher error ratio \cite{Liding2026}. Additionally, 
+actually performed worse, with lower efficiency and a higher error ratio \cite{Liding2026}. Additionally, 
 no significant long-term learning outcome was found, meaning the domain and task matter \cite{Liding2026}. 
 Hence, in order to achieve productive human-AI collaboration, students must possess 
-a high AI literacy as a prerequisite \cite{Jin2025,KimetAl2026}. Studies show that 
-students with higher AI literacy are able to evaluate, and steer the AI to receive 
-deeper insights, while lower literacy learners revert to simple queries \cite{Jin2025,KimetAl2026}. 
+high AI literacy as a prerequisite \cite{Jin2025,KimetAl2026}. Studies show that 
+students with higher AI literacy are able to evaluate and steer the AI to receive 
+deeper insights, while lower-literacy learners revert to simple queries \cite{Jin2025,KimetAl2026}. 
 Therefore, it is necessary for educators to provide prompt literacy to students, fostering 
 UNESCO's AI Competency Framework that envisions students as AI co-creators \cite{qian2025pedagogical, Pham2026}. 
 As previously acknowledged, each student has their own unique needs \cite{Jabbour2025}.
@@ -348,8 +355,8 @@ Therefore, research on designing other human-centric models should also be pursu
 to cater to different learning styles and needs \cite{qian2025pedagogical}.
 
 \subsection{Various AI Learning Strategies}
-Beyond Socratic AI chatbot, students are able to engage with AI through a 
-variety of interaction styles, each offering their own benefits and risks as shown in Table \ref{tab:ai-styles} \cite{Mollick2023}.
+Beyond Socratic AI chatbots, students are able to engage with AI through a 
+variety of interaction styles, each offering their own benefits and risks, as shown in Table \ref{tab:ai-styles} \cite{Mollick2023}.
 
 \begin{table}[h]
     \centering
@@ -359,9 +366,9 @@ variety of interaction styles, each offering their own benefits and risks as sho
         \textbf{AI Style} & \textbf{Description} & \textbf{Benefit} & \textbf{Risk} \\
         \hline
         Mentor &
-        Provides specific feedback and guidance on the student's work &
-        The frequent feedback allows student to reflect even if not all advice are taken &
-        May encourage over-reliance where students do not critically evaluate the AI's feedback \\
+        Provides specific feedback and guidance on the student’s work &
+        The frequent feedback allows students to reflect even if not all advice is taken &
+        May encourage over-reliance, where students do not critically evaluate the AI’s feedback \\
         \hline
         Tutor &
         Offers direct instruction and answers &
@@ -369,19 +376,19 @@ variety of interaction styles, each offering their own benefits and risks as sho
         The uneven knowledge base could cause hallucinations \\
         \hline
         Coach &
-        Engages with students metacognitively (think about their own thinking) by prompting reflections &
+        Engages with students metacognitively (thinking about their own thinking) by prompting reflections &
         Builds self-regulation and planning skills &
         Incorrect advice may lead to misguidance; the interaction style may not suit every student \\
         \hline
         Teammate &
-        Collaborates with student to solve tasks by playing a devil's advocate role to challenge the student's assumptions &
+        Collaborates with students to solve tasks by playing a devil’s advocate role to challenge the student’s assumptions &
         Provides alternate perspectives and fosters collaborative learning &
-        May provide errors that misguide the student's understanding \\
+        May provide errors that misguide the student’s understanding \\
         \hline
         Student &
-        Reverses the role, the student teaches the AI &
-        Promotes learning-by-teaching which can uncover knowledge gaps &
-        AI's argumentative behavior may derail the benefits of this approach \\
+        Reverses the role; the student teaches the AI &
+        Promotes learning-by-teaching, which can uncover knowledge gaps &
+        The AI’s argumentative behavior may derail the benefits of this approach \\
         \hline
         Simulator &
         Provides realistic role-play scenarios to practice the student's skills &
@@ -389,48 +396,48 @@ variety of interaction styles, each offering their own benefits and risks as sho
         The story element may distract from the core concept being taught \\
         \hline
         Tool &
-        AI to extend the learner's capabilities by being a general-purpose utility &
-        More work can be done within the same time-frame &
+        AI to extend the learner’s capabilities by being a general-purpose utility &
+        More work can be done within the same time frame &
         Risk of outsourcing the thinking process to the AI \\
         \hline
     \end{tabular}
-    \caption{Various Learning Approaches with AI~\cite{Mollick2023}.}
+    \caption{Comparison of various AI tutoring styles, their descriptions, benefits, and risks \cite{Mollick2023}.}
     \label{tab:ai-styles}
 \end{table}
 
-Additionally, the ICAP framework \cite{Chi2014} gives a clear categorization on 
+Additionally, the ICAP framework \cite{Chi2014} provides a clear categorization of 
 different levels of cognitive engagement:
 \begin{enumerate}
-    \item Interactive: Learning by collaboration where both parties contribute by building on each other's ideas (e.g. debate).   
-    \item Constructive: Generative new information beyond the materials provided (e.g. mind mapping).  
-    \item Active: Learning using physical manipulation without generating anything new (e.g. highlighting). 
-    \item Passive: Receiving information without any physical engagement (e.g. listening to a lecture).
+    \item Interactive: Learning by collaboration, where both parties contribute by building on each other's ideas (e.g., debate).   
+    \item Constructive: Generating new information beyond the materials provided (e.g., mind mapping).  
+    \item Active: Learning using physical manipulation without generating anything new (e.g., highlighting). 
+    \item Passive: Receiving information without any physical engagement (e.g., listening to a lecture).
 \end{enumerate}
 The ICAP framework has shown that as students move higher in the hierarchy from 
-passive to interactive, learners will gain an increase in learning due to 
+passive to interactive, learners experience an increase in learning due to 
 the knowledge-change processes \cite{Chi2014}. Drawing upon the different ways 
-students are able to engage with AI and its benefits, as well as the validity 
+students can engage with AI and its benefits, as well as the validity 
 of the ICAP framework, this study proposes to compare three different AI tutoring interactions:
 direct-answer, Socratic, and reverse-tutoring. The reverse-tutoring approach is chosen 
-due to its potential in fostering active learning which has been proven to increase 
+due to its potential in fostering active learning, which has been proven to increase 
 learning outcomes \cite{Chi2014}.
 
 \subsubsection{Reverse-tutoring (The Protégé Effect)}
 "While we teach, we learn" is a famous quote by the Roman philosopher Seneca \cite{Wong2026}. 
 Beyond the quote, decades of research have shown that learning-by-teaching 
-has proven effective in improving one's knowledge on a topic \cite{Wong2026,Kobayashi2024}. 
+has proven effective in improving one’s knowledge of a topic \cite{Wong2026,Kobayashi2024}. 
 The beneficial learning outcomes of learning-by-teaching 
 are driven by socio-psychological mechanisms 
-whereby being assigned a teacher role increases their agency, 
-consequently boosting their cognitive engagement and outcome \cite{Wong2026,Okita2013}. 
-This phenomenon is known as the "protégé effect" where students tend to learn harder 
+whereby being assigned a teacher role increases students' agency, 
+consequently boosting their cognitive engagement and outcomes \cite{Wong2026,Okita2013}. 
+This phenomenon is known as the "protégé effect," where students tend to learn more 
 as they know they must teach \cite{Okita2013}. 
-The phenomenon is further supported by Fiorella and Logan's study 
-that found that the process of reverse-tutoring 
-underwent two mechanisms: generative processing and metacognitive monitoring \cite{Fiorella2023}. 
+The phenomenon is further supported by Fiorella and Logan's study, 
+which found that the process of reverse-tutoring 
+involved two mechanisms: generative processing and metacognitive monitoring \cite{Fiorella2023}. 
 \begin{itemize}
     \item \textbf{Generative processing:} Learners generate new information beyond the materials provided and draw relationships between them. This process is driven by the learner's own understanding and knowledge.
-    \item \textbf{Metacognitive monitoring:} As the learners teach the material they constantly monitor their own understanding, detecting explanation gaps.
+    \item \textbf{Metacognitive monitoring:} As learners teach the material, they constantly monitor their own understanding, detecting explanation gaps.
 \end{itemize}
 The combination of these two mechanisms shifts learners' knowledge 
 from surface-level understanding to a flexible mastery of the material \cite{Fiorella2023}. 
@@ -438,58 +445,58 @@ These processes are aligned with the interactive level of engagement from the IC
 students are able to reflect on their own understanding and build upon knowledge gaps 
 as they teach \cite{Chi2014,Fiorella2023}. Additionally, a comparative study by Kobayashi found that students who were explicitly 
 told they were going to teach performed twice as well as those who were not told \cite{Kobayashi2024}. 
-Moreover, students who later actually taught, 
-performed even better than those on preparation-only conditions, 
+Moreover, students who later actually taught 
+performed even better than those in preparation-only conditions, 
 indicating that the act of communicating knowledge 
 possesses a unique cognitive benefit beyond preparation alone \cite{Kobayashi2024}.
 
-One of the most frequently cited teachable agent (TA) is Betty's Brain (2007), a pedagogical agent 
+One of the most frequently cited teachable agents (TA) is Betty's Brain (2007), a pedagogical agent 
 built to foster reasoning for middle school students in the subject of biology \cite{BettyBrain2007}. 
 Dialogue-based interaction was not possible in this era due to the lack of advancement in NLP \cite{BettyBrain2007}. 
 Instead, students interact by building causal maps that act as the "brain" of the agent \cite{BettyBrain2007}. 
-The study shows that the presence of the TA was able to absorb the blame of errors, 
+The study shows that the presence of the TA was able to absorb the blame for errors, 
 allowing students to acknowledge their mistakes while protecting their ego \cite{BettyBrain2007}. 
 TAs are able to act as an ego-protective buffer, where students often avoid critical feedback 
-because it feels like a punishment, the presence of the TA allows students 
+because it feels like a punishment; the presence of the TA allows students 
 to receive feedback without feeling a sense of failure \cite{Silvervarg2021,BettyBrain2007}.
-Additionally, the TA's presence was incredibly beneficial for low-achieving students, where 
-they were able to score equal to the high-achieving students on the hardest questions \cite{Silvervarg2021, BettyBrain2007}. 
-Moreover, the benefits of TA persisted even after the technology was removed, drawing similarities 
-to Socratic AI where learning outcome is retained even after the AI is removed \cite{Chin2010,Bastani2025}.
+Additionally, the TA's presence was incredibly beneficial for low-achieving students, who 
+were able to score equal to the high-achieving students on the hardest questions \cite{Silvervarg2021,BettyBrain2007}. 
+Moreover, the benefits of TAs persisted even after the technology was removed, drawing similarities 
+to Socratic AI, where learning outcomes are retained even after the AI is removed \cite{Chin2010,Bastani2025}.
 
 Putting the learning-by-teaching theory into the context of GenAI, 
-we reverse the role of the student and the AI by having the student teach the AI as a naive tutee \cite{Mollick2023}. 
+we reverse the roles of the student and the AI by having the student teach the AI as a naive tutee \cite{Mollick2023}. 
 This can be done by designing the personality of the chatbot to be curious and open-minded \cite{Lyu2025}.
 By doing so, students are driven to give higher-order explanations and engage in more interactive exchanges \cite{Lyu2025}. 
-The AI should act as a recursive feedback tutor that observes what the student has taught them \cite{Okita2013}. 
-A study by Jin et al., developed a TA of their own called AlgoBo, which acts 
-as a struggling novice in the subject of coding \cite{Jin2024}. AlgoBo is prompt engineered to 
-have a strict knowledge of only documents within the chat, and acts as either a help-receiver or 
+The AI should act as a recursive feedback tutor that observes what the student has taught it \cite{Okita2013}. 
+A study by Jin et al. developed a TA of their own called AlgoBo, which acts 
+as a struggling novice in the subject of coding \cite{Jin2024}. AlgoBo is prompt-engineered to 
+have strict knowledge of only documents within the chat, and acts as either a help-receiver or 
 an active "questioner" that asks why and how questions to the student \cite{Jin2024}. 
-This strategy encourages students to think of edge-cases and misconceptions, just as denoted by 
+This strategy encourages students to think of edge cases and misconceptions, just as denoted by 
 the protégé effect \cite{Fiorella2023,Jin2024}.
-Moreover, despite leading students to produce deeper conversations, 
+Moreover, despite prompting students to produce deeper conversations, 
 there was no increase in self-reported cognitive load \cite{Jin2024}. 
 
 It is important to note that the personality of these AIs matters \cite{Lyu2025}. 
-If the AI fails to emphasise a curiosity by showing agreeable and extroverted behavior, 
+If the AI fails to emphasize curiosity by showing agreeable and extroverted behavior, 
 it may lead to shallow and repetitive exchanges \cite{Lyu2025}. 
 Even though it may lead to an increase in interaction volume, the interaction is not driven 
 by higher-order engagement \cite{Lyu2025}. 
-Therefore, reverse-tutoring is not a one-size-fits-all solution 
+Therefore, reverse-tutoring is not a one-size-fits-all solution, 
 and it depends on the TA's persona design \cite{Lyu2025}.
 
 \subsection{Confidence Calibration}
 
 Confidence calibration is defined as how well a person's subjective 
 sense of certainty matches actual correctness \cite{Chong2022}. 
-In the context of human-AI interaction, confidence calibration is 
+In the context of human-AI interaction, confidence calibration 
 usually refers to how much a user trusts 
-the AI's output in comparison 
-to how accurate the output is \cite{Chong2022}.
-As previously mentioned, the illusion of truth, where 
-modern LLMs can act highly confident even when they output 
-incorrect information, poses a huge risk of causing miscalibration \cite{Berkowitz2026,sallai2024approach}.
+the AI's output compared to 
+how accurate the output is \cite{Chong2022}.
+As previously mentioned, the illusion of truth—where 
+modern LLMs can appear highly confident even when they output 
+incorrect information—poses a significant risk of causing miscalibration \cite{Berkowitz2026,sallai2024approach}.
 A study by Zhang et al. shows that users tend to rely more on the AI 
 when the AI acts more confidently, 
 causing users to overlook the AI's hallucinations \cite{Zhang2020Calibration}. 
@@ -500,34 +507,34 @@ Furthermore, when miscalibration occurs, users tend to
 blame themselves for the mistake, destroying their self-efficacy, and 
 eventually lean harder on the AI \cite{Chong2022}.
 
-A consistent pattern across these studies is that 
-calibration improves when the system shows uncertainty (e.g. asking the user to double-check),
-and when the human themselves can complement the AI's output \cite{Ma2024Calibration,Berkowitz2026}. 
-This uncertainty friction leads users to fact-check with their own 
-knowledge or external sources, leading to a deeper and accurate final output \cite{Berkowitz2026}. 
-Thus, designing an AI system that fosters uncertainty and prompting the user 
-to fact-check with their own knowledge is crucial in achieving a better calibration \cite{Berkowitz2026}. 
-Additionally, literacy plays a crucial role in the interaction, as users with low literacy 
-may find the uncertainty friction overwhelming \cite{Jin2025}. Hence, AI usage education 
-such as the CLEAR framework \cite{Lo2023} is crucial in making sure users are able to 
+A consistent pattern across these studies is that
+calibration improves when the system shows uncertainty (e.g., asking the user to double-check)
+and when the human themselves can complement the AI's output \cite{Ma2024Calibration,Berkowitz2026}.
+This uncertainty friction leads users to fact-check with their own
+knowledge or external sources, resulting in a deeper and more accurate final output \cite{Berkowitz2026}.
+Thus, designing an AI system that fosters uncertainty and prompts the user
+to fact-check with their own knowledge is crucial for achieving better calibration \cite{Berkowitz2026}.
+Additionally, literacy plays a crucial role in the interaction, as users with low literacy
+may find the uncertainty friction overwhelming \cite{Jin2025}. Hence, AI usage education,
+such as the CLEAR framework \cite{Lo2023}, is crucial in making sure users are able to
 understand the uncertainty and fact-check with their own knowledge.
 
 In the scope of this study, the different designs of AI tutoring styles 
-will be compared in terms of their calibration performance, 
+will be compared in terms of their calibration performance 
 to determine which tutoring style is most effective in fostering 
-a better calibration. The default direct-answer AI risks strong confidence inflation 
-due to the lack of uncertainty friction, leading to over-reliance on the AI's output \cite{Bastani2025}. 
+better calibration. The default direct-answer AI risks strong confidence inflation 
+due to the lack of uncertainty friction, leading to overreliance on the AI's output \cite{Bastani2025}. 
 Socratic AI may improve calibration by encouraging self-explanation and error checking, 
 but may raise frustration \cite{Jin2025,Bastani2025}. Reverse-tutoring 
-can surface knowledge gaps and reduce the illusion of competence by 
+can surface knowledge gaps and reduce the illusion of competence through 
 metacognitive monitoring \cite{Fiorella2023}. Finally, the interaction between 
-calibration and self-efficacy is important to take note of, as it is proven to be a 
+calibration and self-efficacy is important to note, as it has been proven to be a 
 vicious cycle where bad AI advice can reduce the user's self-efficacy, 
 which can then increase future dependence on the AI \cite{Chong2022}. 
 
 In measuring calibration performance, 
 it is important to measure the alignment between 
-students' level of confidence and their actual learning results, 
+students' levels of confidence and their actual learning results, 
 especially when the AI is removed. 
 Following prior work, the use of multiple assessments (pre-test, 
 AI-assisted practice, and post-test without AI) can be used to 
@@ -536,13 +543,13 @@ retained knowledge and well-calibrated confidence \cite{Bastani2025}.
 
 
 \section{Research Question}
+\label{sec:research-question}
 % Main RQ and hypothesis (from thematic\_analysis\_grouped.md).
 
 \textit{The main research question in this study is:} 
-\textit{How do (A) tutoring style factors influence the effectiveness of generative AI tutoring; specifically, 
-how does it affect (C) student learning performance, 
-(D) knowledge acquisition, (E) self-efficacy, and 
-(F) confidence calibration under conditions of varying perceived task difficulty?}
+\textit{How do (A) different tutoring style influence the effectiveness of generative AI tutoring; specifically, 
+how does it affect (B) student learning performance, (C) self-efficacy, and 
+(D) confidence calibration under conditions of varying perceived task difficulty?}
 
 The tutoring style factors examined in this research are 
 \textit{(A1) direct-answer AI tutoring, 
@@ -550,10 +557,9 @@ The tutoring style factors examined in this research are
 (A3) reverse-tutoring (protégé effect, 
 where the student teaches the AI acting as a naive tutee).}
 The outcomes measured in the study are 
-\textit{(C1) learning performance (objective test scores), 
-(D1) knowledge acquisition (knowledge gain from pre- to post-intervention), 
-(E1) self-efficacy (confidence in one’s ability), and 
-(F1) confidence calibration (alignment between confidence and actual correctness).} 
+\textit{(B) learning performance (objective test scores), 
+(C) self-efficacy (confidence in one’s ability), and 
+(D) confidence calibration (alignment between confidence and actual correctness).} 
 
 This study hypothesizes that reverse-tutoring will lead to better knowledge mastery, 
 stronger self-efficacy, and better alignment between confidence and actual competence 
@@ -561,41 +567,167 @@ than both the Socratic chatbot and the direct-answer chatbot,
 as teaching forces learners to organise knowledge and expose gaps, 
 reducing the illusion of competence while supporting deeper learning.
 
-
 \section{Methodology}
 
 \subsection{Overview}
 
 \subsection{Materials}
-% Describe the AI tutoring prototypes to be used (e.g., platforms, interface, prompt/interaction design).
-% Explain how each tutoring style (direct-answer, Socratic, reverse-tutoring) is implemented and standardized.
-% Include preparation steps: piloting, task selection, and calibration for comparable difficulty.
+\subsubsection{Study topic and task}
+Data structures are chosen as the topic for this study \cite{Kazemitabaar2025}. 
+There will be 3 sets of subtopics that will be used in the study:
+\begin{enumerate}
+    \item Array sorting algorithms
+    \item Linked Lists
+    \item Binary Search Trees
+\end{enumerate}
+Data structures are chosen as the topic for this study because they possess 
+a good balance of high-level computational thinking, pattern recognition, and 
+algorithm design. Furthermore, data structures are a subject that is uncommon to 
+the general public, making it a neutral and new topic for the participants, especially 
+for those outside of the computer science field.
 
-\subsection{Participants}
-% Specify recruitment criteria (e.g., university students, eligibility requirements).
-% Detail target sample size, demographic distribution, and any stratification (e.g., prior AI experience).
-% Address consent procedures and considerations for diversity and representation.
+To ensure a self-paced learning experience, participants will be given a 
+material video that explains the topic in detail at 
+the start of the study \cite{Kazemitabaar2025}. Then, participants will be given a time limit of 
+60 minutes to study using the assigned AI. Whenever they feel ready, they can freely 
+start the assessment. The assessment consists of 3 sets of 
+5 multiple-choice questions each to measure the participant's 
+knowledge on the topic for pre-test, practice-test with AI, 
+and post-test when the AI is taken away \cite{Bastani2025}. Furthermore, the study will be conducted 
+in a lab setting to ensure a controlled environment 
+and discourage participants from cheating. 
+
+\subsubsection{AI prompts and guardrails}
+In creating the interface that the participants will interact with, 
+an AI chatting interface will be developed 
+using Next.js and the Gemini SDK. Prompt engineering and guardrails 
+will be used to design the personality of the AI to ensure 
+the interaction matches the expected dialogue pattern \cite{Yazici2024}. 
+The prototype will then be pilot tested internally to ensure it is working as expected. 
+All three tutoring styles will be given the same temperature and configuration, ensuring 
+consistent output accuracy and performance across all three tutoring styles \cite{Lo2023}. 
+Additionally, participants will be briefed on the type of AI tutoring style 
+they have been assigned to, along with a guide on how to properly interact with the AI. 
+This ensures the participants understand the expected dialogue pattern.
 
 \subsection{Dependent and Independent Variables}
-% Clearly define independent variables (e.g., tutoring style: direct-answer, Socratic, reverse).
-% List dependent variables: (1) knowledge performance (test scores), (2) knowledge gain, (3) self-efficacy, (4) confidence calibration (alignment of self-reported confidence with correctness).
-% Mention any control variables (e.g., baseline self-efficacy, prior AI familiarity).
+
+Variables are defined consistently with the research question and hypotheses in section~\ref{sec:research-question}.
+
+The \textbf{independent variable} for this study is the different \emph{tutoring styles} that will be 
+manipulated at three levels: 
+\begin{enumerate}
+    \item direct-answer tutoring as the control, 
+    \item Socratic guidance, 
+    \item reverse tutoring (learning-by-teaching). 
+\end{enumerate}
+Each participant will experience all three styles in a Latin square randomization 
+order to ensure a balanced experience among all three styles. 
+Moreover, the study is conducted in a within-subjects design to observe 
+how the same participant performs across 
+different tutoring styles and to achieve stronger statistical power.
+
+
+On the other hand, the \textbf{dependent variables} are:
+\begin{itemize}
+  \item \emph{Learning performance.} Objective scores retrieved from the multiple-choice assessments, 
+  across the pre-test, practice-test with AI, and post-test without AI.
+  \item \emph{Self-efficacy.} Scores from a self-efficacy 
+  questionnaire given to the user after every assessment, capturing confidence 
+  on a 5-point Likert scale, and the number of predicted correct answers.
+  \item \emph{Confidence calibration.} Alignment between self-rated confidence 
+  and objective correctness. This is computed from the item-level confidence ratings 
+  and actual learning performance. 
+\end{itemize}
+
+The \textbf{covariates} included in this study are the participants' AI literacy, 
+and their propensity towards AI, which are drawn from previous studies \cite{Bastani2025,Jin2025,KimetAl2026}.
+To capture the participants' AI literacy, 
+the Meta AI Literacy Scale (MAILS) \cite{MAILS2023} modular framework will be used. This 
+framework consists of a number of questionnaires with answers on a scale of 1 to 10. Then, to 
+capture the participants' trust in and propensity toward AI, the Trust in Automation (TiA) 
+questionnaire will be used, which is a widely used set of questionnaires in the human-computer interaction field 
+to measure the dynamics between humans and automated systems \cite{TiA}.
+
+\subsection{Participants}
+This study aims to recruit a minimum of 53 participants, obtained from power analysis 
+with a combination of 0.25 effect size, 0.05 alpha, and 0.80 power, along with 
+4 predictors. In maintaining a diverse sample, participants will be recruited from 
+different backgrounds (i.e., majors, gender, age) and across different levels of programming experience. 
+Participants will be recruited through an expression of interest 
+form, which will be shared across the university only after the ethics application is approved. 
+They will then be given a selection of schedules that they can choose from to participate in the study. 
+To ensure efficient use of time and resources, students will be scheduled in 
+groups of five for each lab session. This approach helps accelerate 
+data collection while keeping the study environment controlled.
 
 \subsection{Data Collection}
-% Outline the experimental procedure: phases (e.g., pre-test, learning phase with AI, post-test/transfer).
-% Describe instruments/questionnaires used to measure dependent variables.
-% Provide details on timing, setting (remote/in-person), and data logging procedures.
+Data will be collected through a series of surveys and questionnaires from onboarding 
+to the end of the study. Participants’ demographics, background, AI literacy, and level of 
+trust in AI will be collected in the expression of interest during the recruitment process. 
+All participants names will be replaced with a code number to ensure anonymity. 
+As for the study itself, three sets of five multiple-choice questions will be used to assess the participants’ 
+objective learning performance across the different stages of the study (pre-test after the initial briefing, 
+practice-test after learning with AI, and post-test with the AI taken away). 
+In parallel, a questionnaire will be given after each assessment to measure 
+participants’ confidence level in their self-efficacy and predicted correct answers. Since the participants 
+will be doing a within-subject study, participants will then be invited to take three sessions 
+to experience all three tutoring styles. Therefore, this data collection process will be repeated 
+three times, totaling nine sets of assessment and confidence questionnaires. All three tutoring styles 
+will be evaluated in big session to avoid particpant doing independent learning outside of the study. 
+To avoid fatigue and burnout, participants will be given a break between each session. Furthermore, participants 
+will be compensated based on their performance in the study, to ensure they are motivated throughout the 
+study and put effort in answering the assessments.
+
+% Provide a step-by-step study procedure in chronological order.
+% Recommended structure:
+% 1) Consent and study briefing,
+% 2) Pre-study survey (MAILS, TiA, demographics/background) we choose mails as the study is focused on psyhcological 
+% aspect (theref roe capturing paeticpant subjective relationship with AI),
+% 3) Baseline knowledge pre-test + baseline confidence/self-efficacy,
+% 4) Learning phase with AI tutor conditions,
+% 5) Immediate post-learning measures,
+% 6) Final assessment without AI support,
+% 7) Final questionnaire/debrief.
+% Specify assignment and counterbalancing:
+% - Each participant experiences all three tutoring styles,
+% - task-condition order is counterbalanced via Latin square,
+% - equivalent task difficulty is maintained across orders.
+% Report operational details:
+% - session length per phase,
+% - break timing,
+% - setting (lab/online),
+% - logging data captured (chat traces, timestamps, scores).
+% Clarify anonymity and data handling workflow (ID codes, storage, retention).
+
 
 \subsection{Data Analysis}
-% Explain analytic methods (e.g., ANOVA or regression for comparing tutoring styles).
-% Describe how outcome measures are calculated (e.g., calibration as confidence minus accuracy).
-% Address how conflicting findings and potential covariates will be handled.
-% Justify alignment between analysis and the main research question.
+% State analysis strategy for each hypothesis/outcome.
+% Primary analysis:
+% - Linear mixed-effects models (or repeated-measures ANOVA where appropriate),
+% - fixed effects: tutoring style + covariates,
+% - random effects: participant-level intercepts (and slopes if justified).
+% Secondary analysis:
+% - pairwise post-hoc comparisons with multiplicity correction,
+% - exploratory moderation by AI literacy / trust in AI.
+% Report assumptions and diagnostics:
+% - normality/homoscedasticity checks,
+% - treatment of outliers and missing data,
+% - reliability checks for questionnaire scales.
+% Define effect size metrics and significance threshold (e.g., alpha = .05).
+% Optionally include qualitative coding of interaction logs to contextualize quantitative results.
 
 \subsection{Ethics}
-% Confirm ethical approval process (e.g., university HREC).
-% Discuss consent, anonymization, data security, and how risks to participants are minimized.
-% Note any ethical considerations unique to GenAI involvement (e.g., disclosure of AI nature).
+% Summarize ethics compliance and participant protections clearly.
+% Include:
+% - Human research ethics approval status/reference (or submission status),
+% - informed consent process,
+% - right to withdraw without penalty at any time,
+% - anonymisation/pseudonymisation method and confidentiality safeguards,
+% - secure data storage, access control, and retention period,
+% - handling of potential risks (e.g., fatigue, discomfort) and mitigation steps.
+% State that participation is voluntary and non-participation does not affect academic standing.
+
 
 \subsection{Timeline}
 % Provide a sequence of project milestones (e.g., finalize literature, design materials, pilot testing, ethics approval, data collection, analysis, manuscript preparation, submission).
