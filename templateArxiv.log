@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.10.11)  1 APR 2026 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.10.11)  1 APR 2026 15:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -523,9 +523,6 @@ LaTeX Warning: Reference `sec:methodology' on page 4 undefined on input line 201
 LaTeX Warning: Reference `sec:conclusion' on page 4 undefined on input line 201.
 
 
-Underfull \vbox (badness 4254) has occurred while \output is active []
-
-
 
 [4]
 Underfull \vbox (badness 1158) has occurred while \output is active []
@@ -533,8 +530,18 @@ Underfull \vbox (badness 1158) has occurred while \output is active []
 
 
 [5]
-Underfull \hbox (badness 5260) in paragraph at lines 371--372
-\T1/ptm/m/n/10 (+20) reliance, where stu-
+Underfull \hbox (badness 1400) in paragraph at lines 370--370
+[]\T1/ptm/m/n/10 (+20) The fre-quent feed-back al-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+[]\T1/ptm/m/n/10 (+20) May en-cour-age over-
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 371--372
+\T1/ptm/m/n/10 (+20) not crit-i-cally eval-u-ate the
  []
 
 
@@ -548,23 +555,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 379--379
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 381--382
-\T1/ptm/m/n/10 (+20) lead to mis-guid-ance;
+Underfull \hbox (badness 1968) in paragraph at lines 380--380
+[]\T1/ptm/m/n/10 (+20) Builds self-regulation and
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 381--382
-\T1/ptm/m/n/10 (+20) the in-ter-ac-tion style
+Underfull \hbox (badness 1142) in paragraph at lines 386--387
+\T1/ptm/m/n/10 (+20) guide the stu-dent's un-der-
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 385--385
-\T1/ptm/m/n/10 (+20) spec-tives and fos-ters
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
+[]\T1/ptm/m/n/10 (+20) Promotes learning-by-
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 391--392
-[]\T1/ptm/m/n/10 (+20) The AI's ar-gu-men-ta-
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+[]\T1/ptm/m/n/10 (+20) Practical and hands-on
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 400--400
+[]\T1/ptm/m/n/10 (+20) More work can be done
  []
 
 
@@ -597,21 +609,21 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `templateArxiv.out' has not changed.
-(rerunfilecheck)             Checksum: 215B174212C5F4D10BEABE1449B727A9;3019.
+(rerunfilecheck)             Checksum: 83A36397191658308C36692062E35922;3110.
  ) 
 Here is how much of TeX's memory you used:
- 13698 strings out of 473190
- 222070 string characters out of 5704334
- 753913 words of memory out of 5000000
- 36410 multiletter control sequences out of 15000+600000
- 597055 words of font info for 224 fonts, out of 8000000 for 9000
+ 13703 strings out of 473190
+ 222129 string characters out of 5704334
+ 754953 words of memory out of 5000000
+ 36411 multiletter control sequences out of 15000+600000
+ 597280 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,12n,93p,1090b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,93p,1090b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on templateArxiv.pdf (13 pages, 419328 bytes).
+Output written on templateArxiv.pdf (13 pages, 422402 bytes).
 PDF statistics:
- 493 PDF objects out of 1000 (max. 8388607)
- 462 compressed objects within 5 object streams
- 98 named destinations out of 1000 (max. 500000)
+ 499 PDF objects out of 1000 (max. 8388607)
+ 468 compressed objects within 5 object streams
+ 99 named destinations out of 1000 (max. 500000)
  37542 words of extra memory for PDF output out of 42996 (max. 10000000)
 

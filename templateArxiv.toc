@@ -11,10 +11,10 @@
 \contentsline {subsection}{\numberline {4.2}Materials}{8}{subsection.4.2}%
 \contentsline {subsubsection}{\numberline {4.2.1}Study topic and task}{8}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}AI prompts and guardrails}{9}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}Dependent and Independent Variables}{9}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Participants}{9}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Data Collection}{10}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.3}Participants}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Data Collection}{9}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Dependent and Independent Variables}{9}{subsection.4.5}%
 \contentsline {subsection}{\numberline {4.6}Data Analysis}{10}{subsection.4.6}%
 \contentsline {subsection}{\numberline {4.7}Ethics}{10}{subsection.4.7}%
 \contentsline {subsection}{\numberline {4.8}Timeline}{10}{subsection.4.8}%
-\contentsline {section}{\numberline {5}Conclusion}{10}{section.5}%
+\contentsline {section}{\numberline {5}Conclusion and contribution}{10}{section.5}%
