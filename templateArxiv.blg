@@ -9,45 +9,46 @@ Warning--empty booktitle in Liding2026
 Warning--empty journal in Wazan2026
 Warning--empty booktitle in Duelen2024
 Warning--empty booktitle in TiA
-You've used 52 entries,
+Warning--empty journal in Syiem2026
+You've used 55 entries,
             1876 wiz_defined-function locations,
-            810 strings with 17061 characters,
-and the built_in function-call counts, 16311 in all, are:
-= -- 1544
-> -- 772
+            829 strings with 17531 characters,
+and the built_in function-call counts, 17020 in all, are:
+= -- 1615
+> -- 795
 < -- 0
-+ -- 277
-- -- 225
-* -- 1191
-:= -- 2257
-add.period$ -- 56
-call.type$ -- 52
-change.case$ -- 52
++ -- 286
+- -- 231
+* -- 1241
+:= -- 2358
+add.period$ -- 59
+call.type$ -- 55
+change.case$ -- 55
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 925
-empty$ -- 1420
-format.name$ -- 225
-if$ -- 3992
+cite$ -- 62
+duplicate$ -- 962
+empty$ -- 1488
+format.name$ -- 231
+if$ -- 4165
 int.to.chr$ -- 0
-int.to.str$ -- 52
-missing$ -- 52
-newline$ -- 163
-num.names$ -- 54
-pop$ -- 177
+int.to.str$ -- 55
+missing$ -- 55
+newline$ -- 172
+num.names$ -- 57
+pop$ -- 186
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 705
+skip$ -- 731
 stack$ -- 0
-substring$ -- 911
-swap$ -- 437
+substring$ -- 958
+swap$ -- 451
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 121
-width$ -- 54
-write$ -- 532
-(There were 6 warnings)
+warning$ -- 7
+while$ -- 129
+width$ -- 57
+write$ -- 558
+(There were 7 warnings)

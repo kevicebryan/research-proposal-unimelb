@@ -15,6 +15,6 @@
 \contentsline {subsection}{\numberline {4.4}Data Collection}{9}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}Dependent and Independent Variables}{9}{subsection.4.5}%
 \contentsline {subsection}{\numberline {4.6}Data Analysis}{10}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Ethics}{10}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Timeline}{10}{subsection.4.8}%
-\contentsline {section}{\numberline {5}Conclusion and contribution}{10}{section.5}%
+\contentsline {subsection}{\numberline {4.7}Ethics}{11}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Timeline}{11}{subsection.4.8}%
+\contentsline {section}{\numberline {5}Conclusion and contribution}{11}{section.5}%

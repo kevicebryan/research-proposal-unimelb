@@ -43,10 +43,10 @@
   \large
   Kevin Bryan\\
   \texttt{kevinb@student.unimelb.edu.au}\\[0.8cm]
-  \textbf{Word count:} \texttt{5394 (current draft)}\\[0.25cm]
-  {\footnotesize\textit{[DELETE BEFORE SUBMISSION] Section word-count notes (current / target for 6000 words):}}\\
-  {\footnotesize\textit{Introduction: 1286 / 1200 \quad Literature Review: 2712 / 3000 \quad Research Question: 157 / 500}}\\
-  {\footnotesize\textit{Methodology: 958 / 1000 \quad Conclusion: 289 / 300}}\\[0.35cm]
+  \textbf{Word count:} \texttt{6342}\\[0.25cm]
+%   {\footnotesize\textit{[DELETE BEFORE SUBMISSION] Section word-count notes (current / target for 6000 words):}}\\
+%   {\footnotesize\textit{Introduction: 1288 / 1200 \quad Literature Review: 2713 / 3000 \quad Research Question: 157 / 500}}\\
+%   {\footnotesize\textit{Methodology: 1951 / 1000 \quad Conclusion: 259 / 300}}\\[0.35cm]
   Department of Computing and Information Systems\\
   The University of Melbourne\\[0.4cm]
   \today
@@ -69,10 +69,10 @@ Ever since the release of ChatGPT by OpenAI in November 2022,
 the education landscape has evolved tremendously \cite{sallai2024approach}.
 While schools initially took a restrictive stance by completely banning 
 the use of AI, the trend has shifted to embracing and integrating GenAI into their pedagogy \cite{prather2024beyond}.
-One key factor that causes this transition is GenAI's ability to 
+One key factor that drives this transition is GenAI's ability to 
 provide personalized learning and customized feedback based 
 on the unique needs of each individual student, 
-one that human tutors struggles with \cite{wenjuan2024who}.
+which human tutors struggle to provide at scale \cite{wenjuan2024who}.
 The presence of GenAI enables students to focus on higher-order 
 skills such as critical thinking and creativity rather than repetitive tasks \cite{xu2026integrating,qian2025pedagogical}.
 Moreover, due to today's rapidly evolving professional landscape, 
@@ -202,6 +202,7 @@ corresponding question in Section \ref{sec:methodology}. Finally, in Section \re
 and potential contributions will be presented.
 
 \section{Literature Review}
+\label{sec:literature-review}
 
 \subsection{Generative AI in Education}
 It cannot be denied that AI has revolutionized the way 
@@ -547,7 +548,7 @@ retained knowledge and well-calibrated confidence \cite{Bastani2025}.
 % Main RQ and hypothesis (from thematic\_analysis\_grouped.md).
 
 \textit{The main research question in this study is:} 
-\textit{How do (A) different tutoring style influence the effectiveness of generative AI tutoring; specifically, 
+\textit{How do (A) different tutoring styles influence the effectiveness of generative AI tutoring; specifically, 
 how does it affect (B) student learning performance, (C) self-efficacy, and 
 (D) confidence calibration under conditions of varying perceived task difficulty?}
 
@@ -568,8 +569,24 @@ as teaching forces learners to organise knowledge and expose gaps,
 reducing the illusion of competence while supporting deeper learning.
 
 \section{Methodology}
+\label{sec:methodology}
 
 \subsection{Overview}
+This research plans to conduct a within-subjects study by utilizing 
+the Latin Square Design to investigate the effects of 
+different generative AI tutoring styles (direct-answer, Socratic, and reverse-tutoring). 
+Participants will experience all three styles to help them learn 
+data structures and have their knowledge tested across three phases: 
+pre-test before learning with AI, practice-test with AI, and finally a 
+post-test after the AI is taken away. In order to measure the overall 
+effect of the different AI tutoring styles, the following 3 factors 
+will be considered: the objective learning outcome based on their performance 
+in the multiple-choice assessments, their self-efficacy measured through 
+their predicted correct answers and 5-point Likert scale, as well as 
+their confidence calibration using the Brier score. Finally, the collected 
+data will be analyzed using Generalized Linear Mixed Models (GLMM) for continuous measures 
+and Cumulative Link Mixed Models (CLMM) for ordinal psychological data.
+
 
 \subsection{Materials}
 \subsubsection{Study topic and task}
@@ -631,7 +648,10 @@ Regarding the study itself, three sets of five multiple-choice questions will be
 objective learning performance across the different stages of the study (pre-test after the initial briefing, 
 practice-test after learning with AI, and post-test with the AI taken away). 
 In parallel, a questionnaire will be given after each assessment to measure 
-participants’ confidence levels in their self-efficacy and predicted correct answers. Since the participants 
+participants’ confidence levels in their self-efficacy and predicted correct answers. 
+The data will be collected using a 5-point Likert scale to measure how confident they are feeling, 
+and also an option from 1 to 5 for their predicted correct answers, where both data will be collected via Qualtrics.
+Since the participants 
 will be participating in a within-subject study, they will be invited to take three sessions 
 to experience all three tutoring styles. Therefore, this data collection process will be repeated 
 three times, totaling nine sets of assessments and confidence questionnaires. Additionally, the duration 
@@ -683,20 +703,81 @@ to measure the dynamics between humans and automated systems \cite{TiA}.
 
 
 \subsection{Data Analysis}
-% State analysis strategy for each hypothesis/outcome.
-% Primary analysis:
-% - Linear mixed-effects models (or repeated-measures ANOVA where appropriate),
-% - fixed effects: tutoring style + covariates,
-% - random effects: participant-level intercepts (and slopes if justified).
-% Secondary analysis:
-% - pairwise post-hoc comparisons with multiplicity correction,
-% - exploratory moderation by AI literacy / trust in AI.
-% Report assumptions and diagnostics:
-% - normality/homoscedasticity checks,
-% - treatment of outliers and missing data,
-% - reliability checks for questionnaire scales.
-% Define effect size metrics and significance threshold (e.g., alpha = .05).
-% Optionally include qualitative coding of interaction logs to contextualize quantitative results.
+After all the studies have been conducted, the raw data collected from the 
+platform logs, assessments, and questionnaires will be processed to construct the 
+primary dependent variables.
+The objective learning performance will be calculated based on the 
+sum of the correct answers on the 5-item multiple-choice questions. Then, 
+interaction time will be extracted from the platform logs to measure the duration 
+each participant spent interacting with the AI to study the topic before proceeding to 
+complete the assessment.
+In order to measure the confidence calibration, calculation of the 
+Brier Score \cite{Brier2025} will be used for each participant. 
+This method is a proper scoring rule which is used to measure the 
+accuracy of probabilistic prediction to quantify the gap between perceived confidence 
+and the absolute outcome \cite{Brier2025}. In this study, the Brier Score will be 
+calculated by comparing the participant's 
+predicted correct answers with the actual correct answers.
+
+The Brier score ($BS$) for confidence calibration is formally defined as:
+\begin{equation}
+BS = \frac{1}{N} \sum_{t=1}^{N} (f_t - o_t)^2
+\end{equation}
+where $f_t$ represents participants' predicted correct answer count out of 5, 
+and $o_t$ represents the actual correct answers. 
+The Brier score will be used to justify the presence of illusion 
+of competence, where a lower Brier score indicates better confidence calibration 
+while a higher score indicates a severe illusion of competence.
+
+Since our study employs a within-subjects Latin Square design, 
+each participant will experiences all three AI tutoring styles. 
+As a result, their data points are intrinsically linked; 
+for instance, a quick learner may exhibit consistently 
+high scores across styles due to their baseline ability
+rather than the influence of the AI tutoring styles.
+
+To address this dependency, we utilize mixed-effects models. 
+Traditional statistical tests, such as standard ANOVAs, 
+assume that each data point arises from an independent 
+individual. In contrast, mixed-effects models distinguish 
+between within-participant factors (such as AI tutoring style) 
+and between-participant variability (such as individual ability). 
+Incliuding the participant's ID as a randome effect allows the model to 
+account for the differences in each participant's cognitive ability. Hence, 
+it allows us to accurately isolate the impact of the AI's tutoring style itself \cite{Baayen2008}.
+
+Our analysis accommodates two primary data types: 
+\vspace{-0.2em}
+\begin{itemize}
+    \item[] \textbf{1. Generalized Linear Mixed Models (GLMM):} 
+    Applied to objective, continuous measures, including learning 
+    performance (scores out of 5), interaction time 
+    (minutes studying), and Brier Score (confidence calibration).
+    \vspace{0.2em}
+    \item[] \textbf{2. Cumulative Link Mixed Models (CLMM):} 
+    Used for ordinal psychological data, specifically 
+    self-efficacy scores from 5-point Likert scale 
+    questionnaires. These models account for the ranked, 
+    but not interval, nature of such responses \cite{Syiem2026}.
+\end{itemize}
+\vspace{-0.5em}
+
+In order to control for confounding variables, 
+participants’ AI Literacy (MAILS) and Trust in 
+Automation (TiA) scores are included as covariates 
+in all models. Additionally, the logs will also be analyzed using thematic analysis to 
+identify for any key themes and patterns in participant's interaction with the AI such as frustrations, 
+or positive interactions.
+
+Finally, in determining which AI tutoring style is most effective, 
+we first will check to see if the differences in tutoring styles produced a significant 
+different outcome using the mixed-effects models. After that, we will then conduct a post-hoc 
+pairwise comparison using Estimated Marginal Means (EMMs) with Bonferroni correction. By doing so, 
+it allows us to compare the different styles head-to-head while mitigating false positives. 
+The most effective style will be identified holistically based on the interaction of our metrics of 
+being able to achieve the highest learning performance while maintaining high self-efficacy and producing a low 
+Brier score. 
+
 
 \subsection{Ethics}
 This study commits to upholding the principles of conducting research involving humans by 
@@ -713,14 +794,17 @@ at any time without penalty, and their data will be erased from the database. As
 consuming, breaks are provided between changing tutoring styles to avoid any discomfort or fatigue. 
 
 \subsection{Timeline}
-% Provide a sequence of project milestones (e.g., finalize literature, design materials, pilot testing, ethics approval, data collection, analysis, manuscript preparation, submission).
-% Indicate estimated completion dates for each phase.
-% TODO: add a timelline chart 
+Figure~\ref{fig:project-timeline} presents the planned schedule for this study across Semester 1 and Semester 2 of 2026.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{timeline.jpg}
+  \caption{Project timeline and milestone plan for the proposed study across Semester 1 and Semester 2 of 2026 (by week).}
+  \label{fig:project-timeline}
+\end{figure}
 
 \section{Conclusion and contribution}
-% Recap main research question and rationale.
-% Summarize methodological approach and the expected contribution.
-% State how findings will inform best practices for GenAI tutoring style, focusing on mastery, confidence calibration, and implications for educational AI design.
+\label{sec:conclusion}
 The goal of this study is to investigate the effectiveness of learning using AI with different tutoring styles.
 This study examines effectiveness by measuring participants' self-calibrated confidence, actual objective
 learning performance, and the confidence calibration between the two. We plan to uncover the illusion of competence \cite{Bastani2025}
@@ -730,7 +814,7 @@ conducting a within-subject study across three different tutoring styles
 (direct-answer, Socratic, and learning-by-teaching),
 where students are tasked to learn data structures using the assigned AI to be
 assessed with and without the AI. By doing so, we will be able to analyze which tutoring style
-is able to provide users with the best self-efficacy and learning outcome.
+best supports self-efficacy and learning outcomes.
 
 This research contributes to the field of Human-AI interaction by addressing the research gap in
 the design of human-centric AI learning tools \cite{qian2025pedagogical}. As found in previous studies,
