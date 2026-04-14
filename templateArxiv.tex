@@ -30,6 +30,7 @@
 
 \begin{document}
 
+%TC:ignore  % title page + TOC are not counted toward the main proposal body (faculty-style body count)
 % ========== Custom title page (logo, title, author, word count, department) ==========
 \thispagestyle{empty}
 \begin{center}
@@ -43,7 +44,10 @@
   \large
   Kevin Bryan\\
   \texttt{kevinb@student.unimelb.edu.au}\\[0.8cm]
-  \textbf{Word count:} \texttt{6342}\\[0.25cm]
+  \def\ProposalTextWords{6416}% fallback if wordcount.tex is missing (run ./scripts/update_wordcount.sh)
+  \InputIfFileExists{wordcount.tex}{\input{wordcount.tex}}{}%
+  \textbf{Word count (body text):} \texttt{\ProposalTextWords}\\[0.12cm]
+  {\footnotesize From \texttt{texcount} via \texttt{./scripts/update\_wordcount.sh} (main chapters only; excludes title/TOC, headings, captions, math).}\\[0.2cm]
 %   {\footnotesize\textit{[DELETE BEFORE SUBMISSION] Section word-count notes (current / target for 6000 words):}}\\
 %   {\footnotesize\textit{Introduction: 1288 / 1200 \quad Literature Review: 2713 / 3000 \quad Research Question: 157 / 500}}\\
 %   {\footnotesize\textit{Methodology: 1951 / 1000 \quad Conclusion: 259 / 300}}\\[0.35cm]
@@ -58,8 +62,7 @@
 \tableofcontents
 \newpage
 
-
-
+%TC:endignore
 % ========== Main content ==========
 \section{Introduction}
 % Context: pedagogical shift, productivity paradox, illusion of truth, need for desirable friction.
@@ -628,10 +631,10 @@ they have been assigned to, along with a guide on how to properly interact with 
 This ensures the participants understand the expected dialogue pattern.
 
 \subsection{Participants}
-This study aims to recruit a minimum of 53 participants, obtained from power analysis 
+This study aims to recruit a minimum of 60 participants, obtained from power analysis 
 with a combination of 0.25 effect size, 0.05 alpha, and 0.80 power, along with 
-4 predictors. In maintaining a diverse sample, participants will be recruited from 
-different backgrounds (i.e., majors, gender, age) and across different levels of programming experience. 
+5 predictors. In maintaining a diverse sample, participants will be recruited from 
+different backgrounds (i.e. gender and age) and across a spectrum of programming proficiency. 
 Participants will be recruited through an expression of interest 
 form, which will be shared across the university only after the ethics application is approved. 
 They will then be given a selection of schedules that they can choose from to participate in the study. 
@@ -643,6 +646,10 @@ data collection while keeping the study environment controlled.
 Data will be collected through a series of surveys and questionnaires from onboarding 
 to the end of the study. Participants’ demographics, background, AI literacy, and level of 
 trust in AI will be collected in the expression of interest during the recruitment process. 
+Additionally, participants will be asked to fill out a self-report programming proficiency questionnaire 
+to measure their experience. The questionnaires consist of 5-point Likert scale questions 
+regarding their self-estimation of their programming experience and logical paradigm knowledge \cite{Feigenspan2012}.
+
 All participants' names will be replaced with a code number to ensure anonymity. 
 Regarding the study itself, three sets of five multiple-choice questions will be used to assess the participants’ 
 objective learning performance across the different stages of the study (pre-test after the initial briefing, 
@@ -692,15 +699,16 @@ On the other hand, the \textbf{dependent variables} are:
   and actual learning performance. 
 \end{itemize}
 
-The \textbf{covariates} included in this study are the participants' AI literacy, 
+The \textbf{covariates} included in this study are the participants' previous programming proficiency, AI literacy, 
 and their propensity towards AI, which are drawn from previous studies \cite{Bastani2025,Jin2025,KimetAl2026}.
 To capture the participants' AI literacy, 
 the Meta AI Literacy Scale (MAILS) \cite{MAILS2023} modular framework will be used. This 
 framework consists of a number of questionnaires with answers on a scale of 1 to 10. Then, to 
 capture the participants' trust in and propensity toward AI, the Trust in Automation (TiA) 
 questionnaire will be used, which is a widely used set of questionnaires in the human-computer interaction field 
-to measure the dynamics between humans and automated systems \cite{TiA}.
-
+to measure the dynamics between humans and automated systems \cite{TiA}. Alongside these, 
+the participants' previous programming proficiency will be collected through 
+a self-report questionnaire \cite{Feigenspan2012}.
 
 \subsection{Data Analysis}
 After all the studies have been conducted, the raw data collected from the 
@@ -730,7 +738,7 @@ of competence, where a lower Brier score indicates better confidence calibration
 while a higher score indicates a severe illusion of competence.
 
 Since our study employs a within-subjects Latin Square design, 
-each participant will experiences all three AI tutoring styles. 
+each participant will experience all three AI tutoring styles. 
 As a result, their data points are intrinsically linked; 
 for instance, a quick learner may exhibit consistently 
 high scores across styles due to their baseline ability
@@ -742,7 +750,7 @@ assume that each data point arises from an independent
 individual. In contrast, mixed-effects models distinguish 
 between within-participant factors (such as AI tutoring style) 
 and between-participant variability (such as individual ability). 
-Incliuding the participant's ID as a randome effect allows the model to 
+Including the participant's ID as a random effect allows the model to 
 account for the differences in each participant's cognitive ability. Hence, 
 it allows us to accurately isolate the impact of the AI's tutoring style itself \cite{Baayen2008}.
 
@@ -763,20 +771,41 @@ Our analysis accommodates two primary data types:
 \vspace{-0.5em}
 
 In order to control for confounding variables, 
-participants’ AI Literacy (MAILS) and Trust in 
+participants’ previous programming proficiency, AI Literacy (MAILS) and Trust in 
 Automation (TiA) scores are included as covariates 
 in all models. Additionally, the logs will also be analyzed using thematic analysis to 
-identify for any key themes and patterns in participant's interaction with the AI such as frustrations, 
+identify any key themes and patterns in participants' interactions with the AI, such as frustrations 
 or positive interactions.
 
 Finally, in determining which AI tutoring style is most effective, 
-we first will check to see if the differences in tutoring styles produced a significant 
+we first will check to see if the differences in tutoring styles produced a significantly 
 different outcome using the mixed-effects models. After that, we will then conduct a post-hoc 
 pairwise comparison using Estimated Marginal Means (EMMs) with Bonferroni correction. By doing so, 
 it allows us to compare the different styles head-to-head while mitigating false positives. 
 The most effective style will be identified holistically based on the interaction of our metrics of 
 being able to achieve the highest learning performance while maintaining high self-efficacy and producing a low 
-Brier score. 
+Brier score.
+
+For each outcome (test score, study time, Brier score, or Likert 
+self-efficacy via a CLMM), we fit the same structure: the tutoring 
+style in that session, the participant's MAILS, TiA, and self-reported programming proficiency, 
+with a random intercept per person since everyone will be completing all three styles. 
+\begin{equation}
+  Y_{ij}
+  = \beta_0
+  + \beta_1\,\mathrm{Style}_{j}
+  + \beta_2\,\mathrm{Literacy}_{i}
+  + \beta_3\,\mathrm{TiA}_{i}
+  + \beta_4\,\mathrm{ProgExp}_{i}
+  + u_i
+  + \varepsilon_{ij},
+  \label{eq:mixed-model}
+\end{equation}
+
+Here $i$ represents the index for participants and $j$ represents the index for their Latin-square sessions. 
+Then $\beta_0$ is the intercept, $\beta_1$ captures tutoring style (direct-answer, Socratic, reverse tutoring), 
+$\beta_2$--$\beta_4$ capture the three covariates, $u_i$ is the person-specific baseline shift, 
+and $\varepsilon_{ij}$ is the error left over for that person-session.
 
 
 \subsection{Ethics}

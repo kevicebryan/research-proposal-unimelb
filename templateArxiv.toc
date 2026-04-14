@@ -13,7 +13,7 @@
 \contentsline {subsubsection}{\numberline {4.2.2}AI prompts and guardrails}{9}{subsubsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.3}Participants}{9}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Data Collection}{9}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Dependent and Independent Variables}{9}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.5}Dependent and Independent Variables}{10}{subsection.4.5}%
 \contentsline {subsection}{\numberline {4.6}Data Analysis}{10}{subsection.4.6}%
 \contentsline {subsection}{\numberline {4.7}Ethics}{11}{subsection.4.7}%
 \contentsline {subsection}{\numberline {4.8}Timeline}{11}{subsection.4.8}%
