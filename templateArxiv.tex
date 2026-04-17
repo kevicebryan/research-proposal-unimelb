@@ -44,10 +44,9 @@
   \large
   Kevin Bryan\\
   \texttt{kevinb@student.unimelb.edu.au}\\[0.8cm]
-  \def\ProposalTextWords{6416}% fallback if wordcount.tex is missing (run ./scripts/update_wordcount.sh)
+  \def\ProposalTextWords{6225}% fallback if wordcount.tex is missing (run ./scripts/update_wordcount.sh)
   \InputIfFileExists{wordcount.tex}{\input{wordcount.tex}}{}%
-  \textbf{Word count (body text):} \texttt{\ProposalTextWords}\\[0.12cm]
-  {\footnotesize From \texttt{texcount} via \texttt{./scripts/update\_wordcount.sh} (main chapters only; excludes title/TOC, headings, captions, math).}\\[0.2cm]
+  \textbf{Word count:} \texttt{\ProposalTextWords}\\[0.12cm]
 %   {\footnotesize\textit{[DELETE BEFORE SUBMISSION] Section word-count notes (current / target for 6000 words):}}\\
 %   {\footnotesize\textit{Introduction: 1288 / 1200 \quad Literature Review: 2713 / 3000 \quad Research Question: 157 / 500}}\\
 %   {\footnotesize\textit{Methodology: 1951 / 1000 \quad Conclusion: 259 / 300}}\\[0.35cm]
@@ -66,8 +65,6 @@
 % ========== Main content ==========
 \section{Introduction}
 % Context: pedagogical shift, productivity paradox, illusion of truth, need for desirable friction.
-The rise of Generative AI (GenAI), along with all of its capabilities, has become a massive 
-conversation in the education industry \cite{sallai2024approach}. 
 Ever since the release of ChatGPT by OpenAI in November 2022, 
 the education landscape has evolved tremendously \cite{sallai2024approach}.
 While schools initially took a restrictive stance by completely banning 
@@ -233,8 +230,6 @@ This shift is supported by GenAI's ability to deliver an adaptive and personaliz
 learning experience for students \cite{wenjuan2024who}. 
 For a long time, education has been challenged in providing 
 for the unique needs of each individual student \cite{Jabbour2025}.
-Evidence shows that students experience an increase in their learning 
-outcomes when being tutored in a one-on-one setting \cite{Gurung2025}. 
 However, the cost of providing human one-on-one tutoring 
 is high in both financial and human resources, 
 especially as teachers are also burdened with 
@@ -251,9 +246,7 @@ such as cooking, sci-fi, or sports,
 turning a dry learning experience into a more engaging and interactive one \cite{Leong2024,sallai2024approach}. 
 
 
-Despite the immense benefits that GenAI provides, when used without proper guidance,
-it can cause harm to long-term learning outcomes \cite{Bastani2025}.
-Therefore, it is critical for educators to standardize GenAI's use in education.
+It is critical for educators to standardize GenAI's use in education.
 In order to correctly adopt GenAI in their pedagogy,
 educators are encouraged to follow
 UNESCO's AI Competency Framework, which acts as a guide for AI use and misuse \cite{Pham2026}.
@@ -350,8 +343,6 @@ Hence, in order to achieve productive human-AI collaboration, students must poss
 high AI literacy as a prerequisite \cite{Jin2025,KimetAl2026}. Studies show that 
 students with higher AI literacy are able to evaluate and steer the AI to receive 
 deeper insights, while lower-literacy learners revert to simple queries \cite{Jin2025,KimetAl2026}. 
-Therefore, it is necessary for educators to provide prompt literacy to students, fostering 
-UNESCO's AI Competency Framework that envisions students as AI co-creators \cite{qian2025pedagogical, Pham2026}. 
 As previously acknowledged, each student has their own unique needs \cite{Jabbour2025}.
 Therefore, research on designing other human-centric models should also be pursued 
 to cater to different learning styles and needs \cite{qian2025pedagogical}.
@@ -620,7 +611,8 @@ an AI chatting interface will be developed
 using Next.js and the Gemini SDK. Prompt engineering and guardrails 
 will be used to design the personality of the AI to ensure 
 the interaction matches the expected dialogue pattern \cite{Yazici2024}. 
-The prototype will then be pilot tested internally to ensure it is working as expected. 
+The prototype will then be pilot tested internally to ensure it is working as expected, as well 
+as addressed issues from the previous papers (shallow and repetitive exchanges) \cite{Lyu2025}. 
 All three tutoring styles will be given the same temperature and configuration, ensuring 
 consistent output accuracy and performance across all three tutoring styles \cite{Lo2023}. 
 Additionally, participants will be neutrally briefed on the type of AI tutoring style 
@@ -835,7 +827,6 @@ Figure~\ref{fig:project-timeline} presents the planned schedule for this study a
 
 \section{Conclusion and contribution}
 \label{sec:conclusion}
-The goal of this study is to investigate the effectiveness of learning using AI with different tutoring styles.
 This study examines effectiveness by measuring participants' self-calibrated confidence, actual objective
 learning performance, and the confidence calibration between the two. We plan to uncover the illusion of competence \cite{Bastani2025}
 by using the learning-by-teaching AI tutoring style to see whether the protégé effect could mitigate
