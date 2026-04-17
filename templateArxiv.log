@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.10.11)  14 APR 2026 14:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.10.11)  17 APR 2026 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -513,93 +513,87 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [3]
-Underfull \vbox (badness 4254) has occurred while \output is active []
-
-
 
 [4]
-Underfull \vbox (badness 1158) has occurred while \output is active []
-
-
-
-[5]
-Underfull \hbox (badness 1400) in paragraph at lines 374--374
+Underfull \hbox (badness 1400) in paragraph at lines 372--372
 []\T1/ptm/m/n/10 (+20) The fre-quent feed-back al-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 []\T1/ptm/m/n/10 (+20) May en-cour-age over-
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 375--376
+Underfull \hbox (badness 1484) in paragraph at lines 373--374
 \T1/ptm/m/n/10 (+20) not crit-i-cally eval-u-ate the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []\T1/ptm/m/n/10 (+20) Engages with stu-dents
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 \T1/ptm/m/n/10 (+20) metacog-ni-tively (think-ing
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 384--384
+Underfull \hbox (badness 1968) in paragraph at lines 382--382
 []\T1/ptm/m/n/10 (+20) Builds self-regulation and
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 390--391
+Underfull \hbox (badness 1142) in paragraph at lines 388--389
 \T1/ptm/m/n/10 (+20) guide the stu-dent's un-der-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
 []\T1/ptm/m/n/10 (+20) Promotes learning-by-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--399
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 []\T1/ptm/m/n/10 (+20) Practical and hands-on
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 404--404
+Underfull \hbox (badness 2368) in paragraph at lines 402--402
 []\T1/ptm/m/n/10 (+20) More work can be done
  []
 
 
+Underfull \vbox (badness 6428) has occurred while \output is active []
 
-[6]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 443.
+
+
+[5]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 441.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
+[6]
+
 [7]
 
 [8]
-Underfull \vbox (badness 2384) has occurred while \output is active []
-
-
 
 [9]
 
 [10]
-<media/timeline.jpg, id=450, 728.7225pt x 219.82124pt>
+<media/timeline.jpg, id=443, 728.7225pt x 219.82124pt>
 File: media/timeline.jpg Graphic file (type jpg)
 <use media/timeline.jpg>
-Package pdftex.def Info: media/timeline.jpg  used on input line 830.
+Package pdftex.def Info: media/timeline.jpg  used on input line 831.
 (pdftex.def)             Requested size: 469.75499pt x 141.70143pt.
 
 
-[11] (./templateArxiv.bbl
+[11 <./media/timeline.jpg>] (./templateArxiv.bbl
 
-[12 <./media/timeline.jpg>]
+[12]
 
 [13]
 
@@ -616,16 +610,16 @@ Package rerunfilecheck Info: File `templateArxiv.out' has not changed.
 Here is how much of TeX's memory you used:
  13740 strings out of 473190
  222780 string characters out of 5704334
- 755404 words of memory out of 5000000
+ 759018 words of memory out of 5000000
  36434 multiletter control sequences out of 15000+600000
  595632 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,12n,93p,1090b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,93p,1090b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on templateArxiv.pdf (15 pages, 625068 bytes).
+Output written on templateArxiv.pdf (15 pages, 624078 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
- 513 compressed objects within 6 object streams
+ 554 PDF objects out of 1000 (max. 8388607)
+ 505 compressed objects within 6 object streams
  108 named destinations out of 1000 (max. 500000)
  36011 words of extra memory for PDF output out of 42996 (max. 10000000)
 
