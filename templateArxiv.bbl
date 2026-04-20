@@ -3,11 +3,11 @@
 \bibitem{sallai2024approach}
 D.~Sallai, J.~Cardoso-Silva, M.~Barreto, F.~Panero, G.~Berrada, and S.~Luxmoore, ``Approach generative ai tools proactively or risk bypassing the learning process in higher education,'' 07 2024.
 
-\bibitem{prather2024beyond}
-J.~Prather, J.~Leinonen, N.~Kiesler, J.~Gorson~Benario, S.~Lau, S.~MacNeil, N.~Norouzi, S.~Opel, V.~Pettit, L.~Porter, B.~N. Reeves, J.~Savelka, I.~Smith, David~H., S.~Strickroth, and D.~Zingaro, ``Beyond the hype: A comprehensive review of current trends in generative ai research, teaching practices, and tools,'' in {\em 2024 Working Group Reports on Innovation and Technology in Computer Science Education}, ITiCSE 2024, (New York, NY, USA), p.~300–338, Association for Computing Machinery, 2025.
-
 \bibitem{wenjuan2024who}
 W.~Ma, W.~Ma, Y.~Hu, and X.~Bi, ``The who, why, and how of ai-based chatbots for learning and teaching in higher education: A systematic review,'' {\em Education and Information Technologies}, vol.~30, pp.~7781 -- 7805, 2024.
+
+\bibitem{prather2024beyond}
+J.~Prather, J.~Leinonen, N.~Kiesler, J.~Gorson~Benario, S.~Lau, S.~MacNeil, N.~Norouzi, S.~Opel, V.~Pettit, L.~Porter, B.~N. Reeves, J.~Savelka, I.~Smith, David~H., S.~Strickroth, and D.~Zingaro, ``Beyond the hype: A comprehensive review of current trends in generative ai research, teaching practices, and tools,'' in {\em 2024 Working Group Reports on Innovation and Technology in Computer Science Education}, ITiCSE 2024, (New York, NY, USA), p.~300–338, Association for Computing Machinery, 2025.
 
 \bibitem{xu2026integrating}
 T.~Xu and Y.~Chen, ``Integrating generative ai with human-centered pedagogy: An innovative path for vocational education,'' in {\em Proceedings of the International Conference on Implementing Generative AI into Telecommunication and Digital Innovation 2025}, GAITDI '25, (New York, NY, USA), p.~278–283, Association for Computing Machinery, 2026.
@@ -165,9 +165,6 @@ J.~Kornowicz, ``An empirical examination of the evaluative ai framework,'' {\em 
 
 \bibitem{Baayen2008}
 H.~Baayen, D.~Davidson, and D.~Bates, ``Mixed-effects modeling with crossed random effects for subjects and items,'' {\em Journal of Memory and Language}, vol.~59, pp.~390--412, 11 2008.
-
-\bibitem{Syiem2026}
-B.~Syiem and E.~Velloso, ``Better assumptions, stronger conclusions: The case for ordinal regression in hci,'' 02 2026.
 
 \bibitem{EthicsGuide}
 F.~Vanclay, J.~T. Baines, and C.~N. Taylor, ``Principles for ethical research involving humans: ethical professional practice in impact assessment part i,'' {\em Impact Assessment and Project Appraisal}, vol.~31, no.~4, pp.~243--253, 2013.
