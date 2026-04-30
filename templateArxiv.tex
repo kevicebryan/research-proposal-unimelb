@@ -45,7 +45,7 @@
   \large
   Kevin Bryan\\
   \texttt{kevinb@student.unimelb.edu.au}\\[0.8cm]
-  \def\ProposalTextWords{6225}% fallback if wordcount.tex is missing (run ./scripts/update_wordcount.sh)
+  \def\ProposalTextWords{6243}% fallback if wordcount.tex is missing (run ./scripts/update_wordcount.sh)
   \InputIfFileExists{wordcount.tex}{\input{wordcount.tex}}{}%
   \textbf{Word count:} \texttt{\ProposalTextWords}\\[0.12cm]
 %   {\footnotesize\textit{[DELETE BEFORE SUBMISSION] Section word-count notes (current / target for 6000 words):}}\\
@@ -589,8 +589,10 @@ for those outside of the computer science field.
 
 To ensure a self-paced learning experience, participants will be given a 
 material video that explains the topic in detail at 
-the start of the study \cite{Kazemitabaar2025}. Then, participants will be given a time limit of 
-30 minutes to study using the assigned AI. This time limit is chosen to 
+the start of the study \cite{Kazemitabaar2025}. Participants will be given 
+up to 15 minutes to study using the material video before the first assessment.
+Then, participants will be presented with the AI chatbot to interact with 
+for up to 15 minutes. This time limit is chosen to 
 ensure users are given enough time, and not feel too fatigued 
 while undergoing all three different tutoring styles.
 Whenever they feel ready, they can freely 
@@ -651,9 +653,8 @@ three times, totaling nine sets of assessments and confidence questionnaires. Ad
 that each participant spends during their learning sessions and assessments, as well as the chat logs, will 
 be collected for analysis and comparison between different styles. All three tutoring styles 
 will be evaluated in one lab session to avoid participants doing independent learning outside of the study. 
-To avoid fatigue and burnout, participants will be given a break between each session. Furthermore, participants 
-will be compensated hourly, and participant will receive a bonus based 
-on their performance in the study to ensure they are motivated to perform their best.
+To avoid fatigue and burnout, participants will be given a break between each session. Furthermore, each participants 
+will be compensated with a 50 dollar gift voucher for their time.
 
 \subsection{Dependent and Independent Variables}
 
@@ -701,10 +702,7 @@ After all the studies have been conducted, the raw data collected from the
 platform logs, assessments, and questionnaires will be processed to construct the 
 primary dependent variables.
 The objective learning performance will be calculated based on the 
-sum of the correct answers on the 5-item multiple-choice questions. Then, 
-interaction time will be extracted from the platform logs to measure the duration 
-each participant spent interacting with the AI to study the topic before proceeding to 
-complete the assessment.
+sum of the correct answers on the 5-item multiple-choice questions. 
 In order to measure the confidence calibration, calculation of the 
 Brier Score \cite{Brier2025} will be used for each participant. 
 This method is a proper scoring rule which is used to measure the 
