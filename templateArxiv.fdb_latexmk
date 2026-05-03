@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex templateArxiv"] 1776652414.39779 "templateArxiv.aux" "templateArxiv.bbl" "templateArxiv" 1777534542.51217 0
+["bibtex templateArxiv"] 1777784598.59804 "templateArxiv.aux" "templateArxiv.bbl" "templateArxiv" 1777784644.24394 0
   "./references.bib" 1776138355.22125 48971 7350de2d788270126d034fd4cb9d78de ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/bibtex/bst/base/ieeetr.bst" 1741388039 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "templateArxiv.aux" 1777534542.33485 10170 7c57f3ae45ed5b339ee57000b92583db "pdflatex"
+  "templateArxiv.aux" 1777784644.07731 10532 429dfb9c1462a8f6f64923e78dc71d80 "pdflatex"
   (generated)
   "templateArxiv.bbl"
   "templateArxiv.blg"
   (rewritten before read)
-["pdflatex"] 1777534541.53534 "/Users/kevinbryan/Code/School/MCS Research/Proposal/research-proposal-unimelb/templateArxiv.tex" "templateArxiv.pdf" "templateArxiv" 1777534542.5123 0
-  "/Users/kevinbryan/Code/School/MCS Research/Proposal/research-proposal-unimelb/templateArxiv.tex" 1777534539.89288 53118 fd234da5e9449f1cd0f97085126c173b ""
+["pdflatex"] 1777784643.33793 "/Users/kevinbryan/Code/School/MCS Research/Proposal/research-proposal-unimelb/templateArxiv.tex" "templateArxiv.pdf" "templateArxiv" 1777784644.24408 0
+  "/Users/kevinbryan/Code/School/MCS Research/Proposal/research-proposal-unimelb/templateArxiv.tex" 1777784643.13009 53500 4f25071eaed9a9ddb2c0dd14dff9468a ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1741388039 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1741388039 2971 def0b6c1f0b107b3b936def894055589 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -117,14 +117,15 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346130 7452757cd3dccf35ed95e5913cd324e3 ""
   "PRIMEarxiv.sty" 1772412294.46078 7647 257f5f0b6c90ec491e05bd461066ae66 ""
+  "media/studyFlow.png" 1777784482.10117 224411 e0cf9f04a8d51b7e2459b5a6c7e54bbe ""
   "media/timeline.jpg" 1775653309.79644 111311 028a69f54ab9df3862e4370bcf79d40b ""
   "media/uom.png" 1773708755.10202 278268 6fec4411ee428b63ab65654b22b1f53b ""
-  "templateArxiv.aux" 1777534542.33485 10170 7c57f3ae45ed5b339ee57000b92583db "pdflatex"
-  "templateArxiv.bbl" 1776652414.48217 15871 adb522897e003415380d1e1dd175a334 "bibtex templateArxiv"
-  "templateArxiv.out" 1777534542.33618 3041 69af7dc994c54248449ef062dab3f6f4 "pdflatex"
-  "templateArxiv.tex" 1777534539.89288 53118 fd234da5e9449f1cd0f97085126c173b ""
-  "templateArxiv.toc" 1777534542.33642 1682 99be0dfe8a39b4d72b6088eeabde54ca "pdflatex"
-  "wordcount.tex" 1777429233.73645 115 b2fcee19c0288623b1f7c816878bdb47 ""
+  "templateArxiv.aux" 1777784644.07731 10532 429dfb9c1462a8f6f64923e78dc71d80 "pdflatex"
+  "templateArxiv.bbl" 1777784598.66063 15871 adb522897e003415380d1e1dd175a334 "bibtex templateArxiv"
+  "templateArxiv.out" 1777784644.07831 3041 69af7dc994c54248449ef062dab3f6f4 "pdflatex"
+  "templateArxiv.tex" 1777784643.13009 53500 4f25071eaed9a9ddb2c0dd14dff9468a ""
+  "templateArxiv.toc" 1777784644.07851 1684 3a6202c4a66eea5e79ce759025831300 "pdflatex"
+  "wordcount.tex" 1777784630.52567 115 9467d97b68a2a32e869da1a363abb608 ""
   (generated)
   "templateArxiv.aux"
   "templateArxiv.log"

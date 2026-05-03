@@ -12,9 +12,9 @@
 \contentsline {subsubsection}{\numberline {4.2.1}Study materials}{8}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}AI tutor prototype}{9}{subsubsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.3}Participants}{9}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Data Collection}{9}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Dependent and Independent Variables}{9}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.4}Data Collection}{10}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Dependent and Independent Variables}{10}{subsection.4.5}%
 \contentsline {subsection}{\numberline {4.6}Data Analysis}{10}{subsection.4.6}%
 \contentsline {subsection}{\numberline {4.7}Ethics}{11}{subsection.4.7}%
 \contentsline {subsection}{\numberline {4.8}Timeline}{11}{subsection.4.8}%
-\contentsline {section}{\numberline {5}Conclusion and contribution}{11}{section.5}%
+\contentsline {section}{\numberline {5}Conclusion and contribution}{12}{section.5}%
